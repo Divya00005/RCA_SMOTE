@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying RCA-SMOTE manuscript when using this project."
+title: "RCA-SMOTE: Mitigating Rare Minority Subgroup Starvation in Cluster-Based Oversampling"
+type: software
+authors:
+  - family-names: Yadav
+    given-names: Divya
+  - family-names: Rathva
+    given-names: Mayankkumar
+  - family-names: Jadeja
+    given-names: Pratipalsinh
+  - family-names: Chatterjee
+    given-names: Sankhadeep
+license: MIT
