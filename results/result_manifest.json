@@ -1,0 +1,6 @@
+{
+  "main_tables": "Exact displayed main-paper tables, including final updated Table 2/3 means only.",
+  "supporting": "Earlier supporting runs used in main paper; not the fold records for updated RCA means.",
+  "historical_rank_column": "Table 2 rank column belongs to earlier run, explicitly labelled historical.",
+  "missing": "No producing implementation revision, final fold predictions or per-dataset metrics for the updated aggregate means were provided."
+}
