@@ -1,0 +1,7 @@
+Subset,Source,Datasets,Samples,Features,Imbalance_ratio,Minority_subgroups,Role
+A-dev,PMLB,5,290--2375,7--40,3.14--8.20,3--4,design only
+A-held,PMLB,10,202--2375,5--64,2.88--13.26,2--4,A-main (used once)
+A-new,"PMLB, OpenML",9,224--2350,13--216,3.00--6.74,2--4,A-main (new)
+B-KEEL (AW),KEEL,13,215--1066,3--41,1.86--68.10,--,AW-SMOTE study
+B-KEEL (extra),KEEL,8,150--4174,4--13,1.82--129.44,--,benchmark
+B-imblearn,imblearn,6,531--2536,49--294,10.80--33.74,--,benchmark

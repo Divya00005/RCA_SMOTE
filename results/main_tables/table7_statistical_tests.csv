@@ -1,0 +1,25 @@
+Comparison,Metric,Difference,Win_tie_loss,p,p_H,Conclusion
+RCA vs AW-SMOTE,wBA,+0.0248,19/0/0,3.8 x 10^{-6},5.7 x 10^{-5},RCA higher
+RCA vs AW-SMOTE,R_G,+0.0750,18/0/1,3.4 x 10^{-4},0.0040,RCA higher
+RCA vs AW-SMOTE,MCC,+0.0199,17/0/2,9.5 x 10^{-5},0.0010,RCA higher
+RCA vs AW-SMOTE,Spec.,-0.0132,5/0/14,0.012,0.037,RCA lower
+RCA vs SMOTE,wBA,-0.0022,5/0/14,0.104,0.625,n.s.
+RCA vs SMOTE,R_G,-0.0096,7/1/11,0.177,0.885,n.s.
+RCA vs SMOTE,MCC,+0.0011,9/0/10,0.891,1.000,n.s.
+RCA vs SMOTE,Recall,-0.0076,3/0/16,2.1 x 10^{-4},0.0021,RCA lower
+RCA vs SMOTE,Spec.,+0.0037,15/0/4,0.0039,0.020,RCA higher
+RCA vs AW-SMOTE,wBA,+0.0275,9/0/0,0.0039,0.059,n.s.
+RCA vs AW-SMOTE,R_G,+0.0868,9/0/0,0.0039,0.059,n.s.
+RCA vs SMOTE,wBA,-0.0022,1/0/8,0.0078,0.070,n.s.
+RCA vs AW-SMOTE,G-mean,+0.0500,26/0/1,3.0 x 10^{-8},4.5 x 10^{-7},RCA higher
+RCA vs AW-SMOTE,MCC,+0.0214,21/0/6,0.0010,0.013,RCA higher
+RCA vs SMOTE,G-mean,-0.0059,8/0/19,0.028,0.140,n.s.
+RCA vs SMOTE (B-no-ov.),G-mean,-0.0068,6/0/15,0.060,0.261,n.s.
+RCA vs SMOTETomek,G-mean,-0.0070,7/0/20,0.0050,0.040,RCA lower
+No rescue vs full,wBA,-0.0062,1/0/18,2.7 x 10^{-5},1.3 x 10^{-4},lower
+AW quota vs full,wBA,-0.0057,5/0/14,0.023,0.092,n.s.
+All four reverted vs full,R_G,-0.0750,1/0/18,3.4 x 10^{-4},0.0020,lower
+KMeans-SMOTE + both,wBA,+0.0352,19/0/0,3.8 x 10^{-6},2.3 x 10^{-5},higher
+KMeans-SMOTE + both,Prec.,-0.0571,1/0/18,1.9 x 10^{-5},7.6 x 10^{-5},lower
+DBSMOTE + both,wBA,+0.0235,18/0/1,7.6 x 10^{-6},4.6 x 10^{-5},higher
+DBSMOTE + both,Prec.,-0.0279,3/0/16,0.0039,0.011,lower

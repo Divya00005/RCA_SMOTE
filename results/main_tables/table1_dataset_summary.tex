@@ -1,0 +1,21 @@
+\begin{table}[!htb]
+\caption{Dataset groups and protocol. Ranges over the datasets of each subset; $n$: examples; $d$: features after encoding; IR: imbalance ratio; $G$: minority subgroups.}\label{tab:datasets}
+\centering\tabfont
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{@{}llrccccl@{}}
+\toprule
+Subset & Source & Sets & $n$ & $d$ & IR & $G$ & Role \\
+\midrule
+A-dev & PMLB & 5 & 290--2375 & 7--40 & 3.14--8.20 & 3--4 & design only \\
+A-held & PMLB & 10 & 202--2375 & 5--64 & 2.88--13.26 & 2--4 & A-main (used once) \\
+A-new & PMLB, OpenML & 9 & 224--2350 & 13--216 & 3.00--6.74 & 2--4 & A-main (new) \\
+B-KEEL (AW) & KEEL & 13 & 215--1066 & 3--41 & 1.86--68.10 & -- & AW-SMOTE study \\
+B-KEEL (extra) & KEEL & 8 & 150--4174 & 4--13 & 1.82--129.44 & -- & benchmark \\
+B-imblearn & imblearn & 6 & 531--2536 & 49--294 & 10.80--33.74 & -- & benchmark \\
+\midrule
+\multicolumn{8}{@{}p{0.96\textwidth}@{}}{\textit{Protocol:} 5$\times$2-fold cross-validation stratified by subgroup (A) or class (B); scaling and resampling fitted on training folds only; 16 resampling configurations and 4 ensembles; SVM (RBF, $C$=1), $k$NN ($k$=5), decision tree, random forest (100 trees); seeds equal to the fold index; statistical unit: dataset (mean of 10 folds, then of 4 classifiers).} \\
+\botrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
