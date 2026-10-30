@@ -1,0 +1,52 @@
+dataset,group,subset,source,n,d,n_min,IR,sub_sizes,finite,duplicate_feature_rows,crossfold_duplicate_vectors_max,binary_labels,subgroup_consistent
+ecoli,A,A-dev,PMLB,290,7,70,3.14,"[40, 20, 10]",True,0,0,True,True
+led7,A,A-dev,PMLB,1983,7,311,5.38,"[167, 83, 41, 20]",True,1878,78,True,True
+shuttle,A,A-dev,PMLB,2244,9,244,8.2,"[171, 50, 13, 10]",True,0,0,True,True
+texture,A,A-dev,PMLB,2375,40,375,5.33,"[200, 100, 50, 25]",True,8,4,True,True
+wine_quality_white,A,A-dev,PMLB,2282,11,282,7.09,"[175, 87, 20]",True,232,110,True,True
+yeast,A,A-stage2-heldout,PMLB,1397,8,98,13.26,"[51, 25, 12, 10]",True,30,18,True,True
+vowel,A,A-stage2-heldout,PMLB,538,13,88,5.11,"[45, 22, 11, 10]",True,0,0,True,True
+segmentation,A,A-stage2-heldout,PMLB,1174,19,184,5.38,"[99, 49, 24, 12]",True,98,57,True,True
+satimage,A,A-stage2-heldout,PMLB,2350,36,350,5.71,"[200, 100, 50]",True,0,0,True,True
+pendigits,A,A-stage2-heldout,PMLB,2375,16,375,5.33,"[200, 100, 50, 25]",True,0,0,True,True
+dermatology,A,A-stage2-heldout,PMLB,315,34,70,3.5,"[40, 20, 10]",True,0,0,True,True
+page_blocks,A,A-stage2-heldout,PMLB,2200,10,200,10.0,"[115, 57, 28]",True,24,10,True,True
+optdigits,A,A-stage2-heldout,PMLB,2375,64,375,5.33,"[200, 100, 50, 25]",True,0,0,True,True
+letter,A,A-stage2-heldout,PMLB,2375,16,375,5.33,"[200, 100, 50, 25]",True,46,28,True,True
+new_thyroid,A,A-stage2-heldout,PMLB,202,5,52,2.88,"[35, 17]",True,0,0,True,True
+analcatdata_authorship,A,A-new,PMLB,704,70,91,6.74,"[61, 30]",True,0,0,True,True
+collins,A,A-new,PMLB,376,23,63,4.97,"[29, 14, 10, 10]",True,0,0,True,True
+mfeat_factors,A,A-new,PMLB,1187,216,187,5.35,"[100, 50, 25, 12]",True,1,1,True,True
+movement_libras,A,A-new,PMLB,224,90,56,3.0,"[24, 12, 10, 10]",True,11,8,True,True
+sleep,A,A-new,PMLB,2350,13,350,5.71,"[200, 100, 50]",True,0,0,True,True
+gesture_phase,A,A-new,OpenML-CC18,2350,32,350,5.71,"[200, 100, 50]",True,0,0,True,True
+first_order_theorem_proving,A,A-new,OpenML-CC18,2350,51,350,5.71,"[200, 100, 50]",True,111,51,True,True
+steel_plates_fault,A,A-new,OpenML-CC18,1739,27,273,5.37,"[146, 73, 36, 18]",True,0,0,True,True
+wall_robot_navigation,A,A-new,OpenML-CC18,2300,24,300,6.67,"[200, 100]",True,0,0,True,True
+wisconsin,B,B-keel-awsmote,KEEL,683,9,239,1.86,[239],True,234,40,True,True
+pima,B,B-keel-awsmote,KEEL,768,8,268,1.87,[268],True,0,0,True,True
+haberman,B,B-keel-awsmote,KEEL,306,3,81,2.78,[81],True,23,14,True,True
+vehicle0,B,B-keel-awsmote,KEEL,846,18,199,3.25,[199],True,0,0,True,True
+ecoli1,B,B-keel-awsmote,KEEL,336,7,77,3.36,[77],True,0,0,True,True
+new-thyroid2,B,B-keel-awsmote,KEEL,215,5,35,5.14,[35],True,0,0,True,True
+ecoli3,B,B-keel-awsmote,KEEL,336,7,35,8.6,[35],True,0,0,True,True
+yeast-0-2-5-6_vs_3-7-8-9,B,B-keel-awsmote,KEEL,1004,8,99,9.14,[99],True,27,16,True,True
+yeast-0-2-5-7-9_vs_3-6-8,B,B-keel-awsmote,KEEL,1004,8,99,9.14,[99],True,27,16,True,True
+yeast-2_vs_8,B,B-keel-awsmote,KEEL,482,8,20,23.1,[20],True,25,17,True,True
+flare-F,B,B-keel-awsmote,KEEL,1066,41,43,23.79,[43],True,779,99,True,True
+winequality-red-3_vs_5,B,B-keel-awsmote,KEEL,691,11,10,68.1,[10],True,104,55,True,True
+winequality-red-8_vs_6-7,B,B-keel-awsmote,KEEL,855,11,18,46.5,[18],True,136,69,True,True
+glass1,B,B-keel-extra,KEEL,214,9,76,1.82,[76],True,1,1,True,True
+glass-0-1-6_vs_2,B,B-keel-extra,KEEL,192,9,17,10.29,[17],True,1,1,True,True
+glass5,B,B-keel-extra,KEEL,214,9,9,22.78,[9],True,1,1,True,True
+abalone9-18,B,B-keel-extra,KEEL,731,10,42,16.4,[42],True,0,0,True,True
+abalone-21_vs_8,B,B-keel-extra,KEEL,581,10,14,40.5,[14],True,0,0,True,True
+abalone19,B,B-keel-extra,KEEL,4174,10,32,129.44,[32],True,0,0,True,True
+cleveland-0_vs_4,B,B-keel-extra,KEEL,173,13,13,12.31,[13],True,0,0,True,True
+iris0,B,B-keel-extra,KEEL,150,4,50,2.0,[50],True,3,1,True,True
+spectrometer,B,B-imblearn,imblearn,531,93,45,10.8,[45],True,0,0,True,True
+us_crime,B,B-imblearn,imblearn,1994,100,150,12.29,[150],True,0,0,True,True
+yeast_ml8,B,B-imblearn,imblearn,2417,103,178,12.58,[178],True,0,0,True,True
+scene,B,B-imblearn,imblearn,2407,294,177,12.6,[177],True,9,5,True,True
+oil,B,B-imblearn,imblearn,937,49,41,21.85,[41],True,0,0,True,True
+ozone_level,B,B-imblearn,imblearn,2536,72,73,33.74,[73],True,0,0,True,True

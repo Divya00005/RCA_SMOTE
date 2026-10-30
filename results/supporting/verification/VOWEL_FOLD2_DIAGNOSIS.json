@@ -1,0 +1,54 @@
+{
+  "dataset": "vowel",
+  "fold": 2,
+  "subgroups": [
+    {
+      "subgroup": 0,
+      "training": 22,
+      "dropped": 0,
+      "synthetic_nearest_attribution": 108,
+      "clusters": [
+        0
+      ]
+    },
+    {
+      "subgroup": 1,
+      "training": 11,
+      "dropped": 0,
+      "synthetic_nearest_attribution": 46,
+      "clusters": [
+        0
+      ]
+    },
+    {
+      "subgroup": 2,
+      "training": 6,
+      "dropped": 0,
+      "synthetic_nearest_attribution": 27,
+      "clusters": [
+        0
+      ]
+    },
+    {
+      "subgroup": 3,
+      "training": 5,
+      "dropped": 5,
+      "synthetic_nearest_attribution": 0,
+      "clusters": [
+        -1
+      ]
+    }
+  ],
+  "info": {
+    "eps": 3.325152459896316,
+    "n_noise_dropped": 5,
+    "n_rescued": 0,
+    "n_clusters": 1,
+    "cluster_sizes": [
+      39
+    ],
+    "quota": [
+      181
+    ]
+  }
+}

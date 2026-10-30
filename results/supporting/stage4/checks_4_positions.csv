@@ -1,0 +1,17 @@
+method,F1,AUC,wBA,recall_smallest_sub,Recall,Precision,Specificity,MCC
+None,10,11,15,16,16,1,1,8
+RandomOverSampler,1,5,7,11,11,4,5,1
+SMOTE,4,1,3,6,8,8,9,4
+ADASYN,12,6,5,4,4,12,12,12
+Borderline-SMOTE,8,7,8,10,10,11,11,9
+SVM-SMOTE,5,3,1,9,6,10,10,5
+KMeans-SMOTE,6,8,12,13,14,3,3,6
+AW-SMOTE,11,12,13,14,13,5,4,11
+RCA-SMOTE,2,4,4,8,9,6,6,2
+RandomUnderSampler,14,14,9,5,1,15,15,14
+NearMiss-1,16,16,16,1,5,16,16,16
+ClusterCentroids,15,15,11,2,3,14,14,15
+TomekLinks,7,9,14,15,15,2,2,7
+ENN,9,10,10,12,12,7,7,10
+SMOTEENN,13,13,6,3,2,13,13,13
+SMOTETomek,3,2,2,7,7,9,8,3

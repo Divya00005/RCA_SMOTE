@@ -1,0 +1,62 @@
+{
+  "status": "assembled_and_bounded_checks_passed",
+  "selected_original_python_sources": 40,
+  "total_release_python_files": 48,
+  "original_source_files_hash_checked": 93,
+  "original_source_changes": [],
+  "final_pdf_pages": 29,
+  "supplementary_mentions_in_main_pdf": 0,
+  "canonical_figures": 8,
+  "all_eight_figure_generators_executed": true,
+  "final_table2_RCA": {
+    "wBA": 0.853,
+    "R_G": 0.674,
+    "G_mean": 0.861,
+    "F1": 0.759,
+    "MCC": 0.719,
+    "Precision": 0.744,
+    "Specificity": 0.936
+  },
+  "final_table3_RCA": {
+    "G_mean": 0.693,
+    "MCC": 0.457,
+    "F1": 0.502,
+    "ROC_AUC": 0.817,
+    "PR_AUC": 0.474,
+    "Recall": 0.588,
+    "Specificity": 0.914
+  },
+  "sampler_output_identity": {
+    "fixed_seed_cases": 5,
+    "array_hashes_match_original": true
+  },
+  "sampler_and_metric_unit_tests": {
+    "tests": 2,
+    "passed": 2,
+    "classification_benchmarks_run": 0
+  },
+  "supporting_statistics": {
+    "comparisons": 120,
+    "max_adjusted_p_difference_from_corrected_source": 0.0,
+    "aggregation": "folds, then classifiers, then dataset-block tests; 15-method Holm family"
+  },
+  "main_pdf_build": {
+    "compiler": "Tectonic 0.17.0 / XeTeX",
+    "pdfLaTeX_tested": false,
+    "undefined_references_or_citations": false,
+    "visually_checked": "29 pages in contact sheets, with title/declarations inspected individually",
+    "warnings": [
+      "2.22pt overfull horizontal box in frontmatter output; no visible clipping",
+      "A float-only page; no content overlap",
+      "algorithm.sty encoding warning in compiler package comment"
+    ]
+  },
+  "scientific_provenance_limit": "The updated aggregate producing code revision/environment and fold records were not supplied. Supporting analyses remain labelled earlier-run. No new significance claims for final means are made.",
+  "git_initialized": false,
+  "commits_created": 0,
+  "github_changes": false,
+  "portable_import_checks": {
+    "benchmark_ablation_transfer_dataset_modules": true,
+    "AW_reconstruction_cli_help": true
+  }
+}

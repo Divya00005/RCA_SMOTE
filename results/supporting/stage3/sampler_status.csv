@@ -1,0 +1,15 @@
+method,sampler_status,dataset_folds
+ADASYN,failed: RuntimeError: Not any neigbours belong to the majority class. This case will induce a NaN case,5
+KMeans-SMOTE,kmeans: smote fallback,72
+KMeans-SMOTE,kmeans: stage-1 settings,173
+RUSBoost,failed: ValueError: BaseClassifier in AdaBoostClassifier ensemble is worse than ,4
+RUSBoost,ok after 1 reseed(s),25
+RUSBoost,ok after 2 reseed(s),11
+RUSBoost,ok after 3 reseed(s),2
+RUSBoost,ok after 4 reseed(s),3
+RUSBoost,ok after 5 reseed(s),1
+RUSBoost,ok after 6 reseed(s),4
+RUSBoost,ok after 7 reseed(s),2
+RUSBoost,ok after 8 reseed(s),3
+RUSBoost,ok after 9 reseed(s),1
+SVM-SMOTE,failed: ValueError: All support vectors are considered as noise. SVM-SMOTE is not adapted to your da,2

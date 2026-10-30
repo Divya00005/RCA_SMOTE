@@ -1,0 +1,146 @@
+[
+  {
+    "name": "wisconsin",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/wisconsin.zip",
+    "path": "sources\\keel\\wisconsin.zip",
+    "bytes": 3768,
+    "sha256": "75d2928f864bfe97c003757006f60dac7aa5bfaa539240f0cc820927affd2aa3",
+    "status": "downloaded"
+  },
+  {
+    "name": "pima",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/pima.zip",
+    "path": "sources\\keel\\pima.zip",
+    "bytes": 9434,
+    "sha256": "f8bf7b956c3bd850384a374ebb3de9e6f343874abed1c45a30326e0de6a0a7a9",
+    "status": "downloaded"
+  },
+  {
+    "name": "haberman",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/haberman.zip",
+    "path": "sources\\keel\\haberman.zip",
+    "bytes": 1428,
+    "sha256": "a5a4d6ff481ca337b6622d5fb8a1b4fe32387115331f2df33ce6930035715656",
+    "status": "downloaded"
+  },
+  {
+    "name": "vehicle0",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/vehicle0.zip",
+    "path": "sources\\keel\\vehicle0.zip",
+    "bytes": 21243,
+    "sha256": "a599880e58839fce1555eb668019094110d52b766c9857b9d37570516afa6aec",
+    "status": "downloaded"
+  },
+  {
+    "name": "ecoli1",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/ecoli1.zip",
+    "path": "sources\\keel\\ecoli1.zip",
+    "bytes": 3147,
+    "sha256": "8e105f21a33e1eddb90ee8fc9139d940d6f428e3829ebc4737b8a437c18c750d",
+    "status": "downloaded"
+  },
+  {
+    "name": "new-thyroid2",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/new-thyroid2.zip",
+    "path": "sources\\keel\\new-thyroid2.zip",
+    "bytes": 2078,
+    "sha256": "5fa96f1df9906c6766dfc6193b858fda8a62e8b3672fb59f468b9bcc21127679",
+    "status": "downloaded"
+  },
+  {
+    "name": "ecoli3",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/ecoli3.zip",
+    "path": "sources\\keel\\ecoli3.zip",
+    "bytes": 3186,
+    "sha256": "706090b031a17a75a7dbec22b24979e5b14879efe82feb829669596613e30336",
+    "status": "downloaded"
+  },
+  {
+    "name": "yeast-0-2-5-6_vs_3-7-8-9",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p2/yeast-0-2-5-6_vs_3-7-8-9.zip",
+    "path": "sources\\keel\\yeast-0-2-5-6_vs_3-7-8-9.zip",
+    "bytes": 8222,
+    "sha256": "a8c6997779b4d70cdb1670629d7a04efb3ab6999d2572c1b15a07d214f60be55",
+    "status": "downloaded"
+  },
+  {
+    "name": "yeast-0-2-5-7-9_vs_3-6-8",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p2/yeast-0-2-5-7-9_vs_3-6-8.zip",
+    "path": "sources\\keel\\yeast-0-2-5-7-9_vs_3-6-8.zip",
+    "bytes": 8204,
+    "sha256": "d565e2a9353f30c7a0099c2e9d4263e5b638f017acebbd3599555eaf8239b67e",
+    "status": "downloaded"
+  },
+  {
+    "name": "yeast-2_vs_8",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p1/yeast-2_vs_8.zip",
+    "path": "sources\\keel\\yeast-2_vs_8.zip",
+    "bytes": 4420,
+    "sha256": "e27020899452ccf309f0942801dda1c36527c3c10ab062653f2ec2c425206b8c",
+    "status": "downloaded"
+  },
+  {
+    "name": "flare-F",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p3/flare-F.zip",
+    "path": "sources\\keel\\flare-F.zip",
+    "bytes": 3932,
+    "sha256": "f30e9cdcd402d616748b4dcb2fa36bf4f8f0d125abebc3d9f5c1cd2d699a8100",
+    "status": "downloaded"
+  },
+  {
+    "name": "winequality-red-3_vs_5",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p3/winequality-red-3_vs_5.zip",
+    "path": "sources\\keel\\winequality-red-3_vs_5.zip",
+    "bytes": 11799,
+    "sha256": "34521b8f44804c9b7496290e1270dc781a8cd51911752cef8c9292f741819c9a",
+    "status": "downloaded"
+  },
+  {
+    "name": "winequality-red-8_vs_6-7",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p3/winequality-red-8_vs_6-7.zip",
+    "path": "sources\\keel\\winequality-red-8_vs_6-7.zip",
+    "bytes": 14193,
+    "sha256": "7a9abfcbc4a7a1be499ee0c6124880ed64ad1d01731989bfa092a617b585743c",
+    "status": "downloaded"
+  },
+  {
+    "name": "abalone19",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p1/abalone19.zip",
+    "path": "sources\\keel\\abalone19.zip",
+    "bytes": 57373,
+    "sha256": "595f3332d093368652a55dcef4c4fde60c432b2f7030965b2a661409bdc6f4b1",
+    "status": "downloaded"
+  },
+  {
+    "name": "kr-vs-k-three_vs_eleven",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p3/kr-vs-k-three_vs_eleven.zip",
+    "path": "sources\\keel\\kr-vs-k-three_vs_eleven.zip",
+    "bytes": 9116,
+    "sha256": "ad599a6f62e68f7888668f17bd434aa90b78f0cd4f9f90e03272154f4a86adbe",
+    "status": "downloaded"
+  },
+  {
+    "name": "segment0",
+    "url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/segment0.zip",
+    "path": "sources\\keel\\segment0.zip",
+    "bytes": 117497,
+    "sha256": "ed1e778dc9d4aa217ab2ea6bfeb45bb4930c144fc57ab1f3782cd4b0cd3bb221",
+    "status": "downloaded"
+  },
+  {
+    "name": "authors_adw",
+    "url": "https://raw.githubusercontent.com/guo-source-1/AWSMOTE/f0dc14807e02292a096e261ca9af21b0d1300753/adw.py",
+    "path": "sources\\adw.py",
+    "bytes": 7876,
+    "sha256": "72c3d438093538d0c5c3d19bc5dc456be9cdc743a7b907bfec5abd2591d15124",
+    "status": "downloaded"
+  },
+  {
+    "name": "authors_results",
+    "url": "https://raw.githubusercontent.com/guo-source-1/AWSMOTE/f0dc14807e02292a096e261ca9af21b0d1300753/results.docx",
+    "path": "sources\\authors_results.docx",
+    "bytes": 42030,
+    "sha256": "3dcc0cc32b4f8c06195453c94ae6cc90c0fe16662dcc27eb5c2a630b0e963362",
+    "status": "downloaded"
+  }
+]

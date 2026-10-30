@@ -1,0 +1,348 @@
+{
+  "table3": [
+    {
+      "classifier": "GBoost",
+      "method": "AW-SMOTE",
+      "AUC": 0.9747,
+      "F1": 0.9455,
+      "G_mean": 0.9458
+    },
+    {
+      "classifier": "SVM",
+      "method": "AW-SMOTE",
+      "AUC": 0.9583,
+      "F1": 0.9203,
+      "G_mean": 0.9189
+    },
+    {
+      "classifier": "GBoost",
+      "method": "RSMOTE",
+      "AUC": 0.9743,
+      "F1": 0.9415,
+      "G_mean": 0.9407
+    },
+    {
+      "classifier": "SVM",
+      "method": "RSMOTE",
+      "AUC": 0.9551,
+      "F1": 0.9112,
+      "G_mean": 0.9105
+    },
+    {
+      "classifier": "GBoost",
+      "method": "SMOTEWB",
+      "AUC": 0.9737,
+      "F1": 0.947,
+      "G_mean": 0.9464
+    },
+    {
+      "classifier": "SVM",
+      "method": "SMOTEWB",
+      "AUC": 0.9462,
+      "F1": 0.8949,
+      "G_mean": 0.8986
+    },
+    {
+      "classifier": "GBoost",
+      "method": "GSMOTE",
+      "AUC": 0.9702,
+      "F1": 0.9289,
+      "G_mean": 0.9286
+    },
+    {
+      "classifier": "SVM",
+      "method": "GSMOTE",
+      "AUC": 0.9316,
+      "F1": 0.8752,
+      "G_mean": 0.8773
+    },
+    {
+      "classifier": "GBoost",
+      "method": "AMSCO",
+      "AUC": 0.9299,
+      "F1": 0.7782,
+      "G_mean": 0.7983
+    },
+    {
+      "classifier": "SVM",
+      "method": "SYMPROD",
+      "AUC": 0.9263,
+      "F1": 0.7996,
+      "G_mean": 0.7998
+    },
+    {
+      "classifier": "GBoost",
+      "method": "SYMPROD",
+      "AUC": 0.9276,
+      "F1": 0.8072,
+      "G_mean": 0.8108
+    },
+    {
+      "classifier": "SVM",
+      "method": "AMSCO",
+      "AUC": 0.8865,
+      "F1": 0.7148,
+      "G_mean": 0.7318
+    },
+    {
+      "classifier": "GBoost",
+      "method": "SMOTE",
+      "AUC": 0.9707,
+      "F1": 0.9348,
+      "G_mean": 0.935
+    },
+    {
+      "classifier": "SVM",
+      "method": "SMOTE",
+      "AUC": 0.9495,
+      "F1": 0.89,
+      "G_mean": 0.8933
+    },
+    {
+      "classifier": "GBoost",
+      "method": "None",
+      "AUC": 0.8547,
+      "F1": 0.5568,
+      "G_mean": 0.6268
+    },
+    {
+      "classifier": "SVM",
+      "method": "None",
+      "AUC": 0.8458,
+      "F1": 0.5416,
+      "G_mean": 0.5983
+    },
+    {
+      "classifier": "kNN",
+      "method": "AW-SMOTE",
+      "AUC": 0.9637,
+      "F1": 0.9316,
+      "G_mean": 0.929
+    },
+    {
+      "classifier": "DT",
+      "method": "SMOTEWB",
+      "AUC": 0.9523,
+      "F1": 0.9526,
+      "G_mean": 0.951
+    },
+    {
+      "classifier": "kNN",
+      "method": "RSMOTE",
+      "AUC": 0.9587,
+      "F1": 0.9255,
+      "G_mean": 0.9225
+    },
+    {
+      "classifier": "DT",
+      "method": "AW-SMOTE",
+      "AUC": 0.9275,
+      "F1": 0.9263,
+      "G_mean": 0.9259
+    },
+    {
+      "classifier": "kNN",
+      "method": "SMOTEWB",
+      "AUC": 0.9554,
+      "F1": 0.9232,
+      "G_mean": 0.9207
+    },
+    {
+      "classifier": "DT",
+      "method": "RSMOTE",
+      "AUC": 0.9244,
+      "F1": 0.9249,
+      "G_mean": 0.9225
+    },
+    {
+      "classifier": "kNN",
+      "method": "GSMOTE",
+      "AUC": 0.9443,
+      "F1": 0.9048,
+      "G_mean": 0.9024
+    },
+    {
+      "classifier": "DT",
+      "method": "GSMOTE",
+      "AUC": 0.9044,
+      "F1": 0.9019,
+      "G_mean": 0.9019
+    },
+    {
+      "classifier": "kNN",
+      "method": "SYMPROD",
+      "AUC": 0.9097,
+      "F1": 0.7946,
+      "G_mean": 0.7949
+    },
+    {
+      "classifier": "DT",
+      "method": "SYMPROD",
+      "AUC": 0.8719,
+      "F1": 0.8128,
+      "G_mean": 0.8262
+    },
+    {
+      "classifier": "kNN",
+      "method": "AMSCO",
+      "AUC": 0.8938,
+      "F1": 0.7312,
+      "G_mean": 0.7447
+    },
+    {
+      "classifier": "DT",
+      "method": "AMSCO",
+      "AUC": 0.8498,
+      "F1": 0.7517,
+      "G_mean": 0.7884
+    },
+    {
+      "classifier": "kNN",
+      "method": "SMOTE",
+      "AUC": 0.9553,
+      "F1": 0.9184,
+      "G_mean": 0.9147
+    },
+    {
+      "classifier": "DT",
+      "method": "SMOTE",
+      "AUC": 0.9189,
+      "F1": 0.9168,
+      "G_mean": 0.917
+    },
+    {
+      "classifier": "kNN",
+      "method": "None",
+      "AUC": 0.8193,
+      "F1": 0.5473,
+      "G_mean": 0.6123
+    },
+    {
+      "classifier": "DT",
+      "method": "None",
+      "AUC": 0.7359,
+      "F1": 0.5327,
+      "G_mean": 0.6403
+    }
+  ],
+  "table4": [
+    {
+      "method": "AW-SMOTE",
+      "overall_order": 1,
+      "AUC": 0.9561,
+      "AUC_rank": 2,
+      "F1": 0.9309,
+      "F1_rank": 1,
+      "G_mean": 0.9299,
+      "G_mean_rank": 1
+    },
+    {
+      "method": "SMOTEWB",
+      "overall_order": 2,
+      "AUC": 0.9569,
+      "AUC_rank": 1,
+      "F1": 0.9294,
+      "F1_rank": 2,
+      "G_mean": 0.9292,
+      "G_mean_rank": 2
+    },
+    {
+      "method": "RSMOTE",
+      "overall_order": 3,
+      "AUC": 0.9531,
+      "AUC_rank": 3,
+      "F1": 0.9258,
+      "F1_rank": 3,
+      "G_mean": 0.9241,
+      "G_mean_rank": 3
+    },
+    {
+      "method": "GSMOTE",
+      "overall_order": 4,
+      "AUC": 0.9376,
+      "AUC_rank": 4,
+      "F1": 0.9027,
+      "F1_rank": 4,
+      "G_mean": 0.9026,
+      "G_mean_rank": 4
+    },
+    {
+      "method": "SYMPROD",
+      "overall_order": 5,
+      "AUC": 0.9089,
+      "AUC_rank": 5,
+      "F1": 0.8036,
+      "F1_rank": 5,
+      "G_mean": 0.8079,
+      "G_mean_rank": 5
+    },
+    {
+      "method": "AMSCO",
+      "overall_order": 6,
+      "AUC": 0.89,
+      "AUC_rank": 6,
+      "F1": 0.744,
+      "F1_rank": 6,
+      "G_mean": 0.7658,
+      "G_mean_rank": 6
+    }
+  ],
+  "table6": [
+    {
+      "method": "AW-SMOTE",
+      "F1": 0.9886,
+      "G_mean": 0.9881,
+      "AUC": 0.9948,
+      "rank": 1
+    },
+    {
+      "method": "SMOTEWB",
+      "F1": 0.9878,
+      "G_mean": 0.9869,
+      "AUC": 0.9943,
+      "rank": 2
+    },
+    {
+      "method": "RSMOTE",
+      "F1": 0.983,
+      "G_mean": 0.9824,
+      "AUC": 0.9926,
+      "rank": 3
+    },
+    {
+      "method": "GSMOTE",
+      "F1": 0.9823,
+      "G_mean": 0.9809,
+      "AUC": 0.9907,
+      "rank": 4
+    },
+    {
+      "method": "SMOTE",
+      "F1": 0.9811,
+      "G_mean": 0.9799,
+      "AUC": 0.9909,
+      "rank": 5
+    },
+    {
+      "method": "SYMPROD",
+      "F1": 0.6725,
+      "G_mean": 0.6852,
+      "AUC": 0.8758,
+      "rank": 6
+    },
+    {
+      "method": "AMSCO",
+      "F1": 0.671,
+      "G_mean": 0.6783,
+      "AUC": 0.8698,
+      "rank": 7
+    },
+    {
+      "method": "None",
+      "F1": 0.6499,
+      "G_mean": 0.6698,
+      "AUC": 0.8738,
+      "rank": 8
+    }
+  ]
+}

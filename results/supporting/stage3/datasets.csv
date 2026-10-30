@@ -1,0 +1,52 @@
+name,group,subset,source,shares_raw_data_with,n_samples,n_features,n_minority,IR,minority_subgroup_sizes
+ecoli,A,A-dev,PMLB,,290,7,70,3.14,40 / 20 / 10
+led7,A,A-dev,PMLB,,1983,7,311,5.38,167 / 83 / 41 / 20
+shuttle,A,A-dev,PMLB,,2244,9,244,8.2,171 / 50 / 13 / 10
+texture,A,A-dev,PMLB,,2375,40,375,5.33,200 / 100 / 50 / 25
+wine_quality_white,A,A-dev,PMLB,,2282,11,282,7.09,175 / 87 / 20
+yeast,A,A-stage2-heldout,PMLB,,1397,8,98,13.26,51 / 25 / 12 / 10
+vowel,A,A-stage2-heldout,PMLB,,538,13,88,5.11,45 / 22 / 11 / 10
+segmentation,A,A-stage2-heldout,PMLB,,1174,19,184,5.38,99 / 49 / 24 / 12
+satimage,A,A-stage2-heldout,PMLB,,2350,36,350,5.71,200 / 100 / 50
+pendigits,A,A-stage2-heldout,PMLB,,2375,16,375,5.33,200 / 100 / 50 / 25
+dermatology,A,A-stage2-heldout,PMLB,,315,34,70,3.5,40 / 20 / 10
+page_blocks,A,A-stage2-heldout,PMLB,,2200,10,200,10.0,115 / 57 / 28
+optdigits,A,A-stage2-heldout,PMLB,,2375,64,375,5.33,200 / 100 / 50 / 25
+letter,A,A-stage2-heldout,PMLB,,2375,16,375,5.33,200 / 100 / 50 / 25
+new_thyroid,A,A-stage2-heldout,PMLB,,202,5,52,2.88,35 / 17
+analcatdata_authorship,A,A-new,PMLB,,704,70,91,6.74,61 / 30
+collins,A,A-new,PMLB,,376,23,63,4.97,29 / 14 / 10 / 10
+mfeat_factors,A,A-new,PMLB,,1187,216,187,5.35,100 / 50 / 25 / 12
+movement_libras,A,A-new,PMLB,,224,90,56,3.0,24 / 12 / 10 / 10
+sleep,A,A-new,PMLB,,2350,13,350,5.71,200 / 100 / 50
+gesture_phase,A,A-new,OpenML-CC18,,2350,32,350,5.71,200 / 100 / 50
+first_order_theorem_proving,A,A-new,OpenML-CC18,,2350,51,350,5.71,200 / 100 / 50
+steel_plates_fault,A,A-new,OpenML-CC18,,1739,27,273,5.37,146 / 73 / 36 / 18
+wall_robot_navigation,A,A-new,OpenML-CC18,,2300,24,300,6.67,200 / 100
+wisconsin,B,B-keel-awsmote,KEEL,,683,9,239,1.86,239
+pima,B,B-keel-awsmote,KEEL,,768,8,268,1.87,268
+haberman,B,B-keel-awsmote,KEEL,,306,3,81,2.78,81
+vehicle0,B,B-keel-awsmote,KEEL,,846,18,199,3.25,199
+ecoli1,B,B-keel-awsmote,KEEL,ecoli (dev),336,7,77,3.36,77
+new-thyroid2,B,B-keel-awsmote,KEEL,new_thyroid,215,5,35,5.14,35
+ecoli3,B,B-keel-awsmote,KEEL,ecoli (dev),336,7,35,8.6,35
+yeast-0-2-5-6_vs_3-7-8-9,B,B-keel-awsmote,KEEL,yeast,1004,8,99,9.14,99
+yeast-0-2-5-7-9_vs_3-6-8,B,B-keel-awsmote,KEEL,yeast,1004,8,99,9.14,99
+yeast-2_vs_8,B,B-keel-awsmote,KEEL,yeast,482,8,20,23.1,20
+flare-F,B,B-keel-awsmote,KEEL,,1066,41,43,23.79,43
+winequality-red-3_vs_5,B,B-keel-awsmote,KEEL,,691,11,10,68.1,10
+winequality-red-8_vs_6-7,B,B-keel-awsmote,KEEL,,855,11,18,46.5,18
+glass1,B,B-keel-extra,KEEL,,214,9,76,1.82,76
+glass-0-1-6_vs_2,B,B-keel-extra,KEEL,,192,9,17,10.29,17
+glass5,B,B-keel-extra,KEEL,,214,9,9,22.78,9
+abalone9-18,B,B-keel-extra,KEEL,,731,10,42,16.4,42
+abalone-21_vs_8,B,B-keel-extra,KEEL,,581,10,14,40.5,14
+abalone19,B,B-keel-extra,KEEL,,4174,10,32,129.44,32
+cleveland-0_vs_4,B,B-keel-extra,KEEL,,173,13,13,12.31,13
+iris0,B,B-keel-extra,KEEL,,150,4,50,2.0,50
+spectrometer,B,B-imblearn,imblearn,,531,93,45,10.8,45
+us_crime,B,B-imblearn,imblearn,,1994,100,150,12.29,150
+yeast_ml8,B,B-imblearn,imblearn,,2417,103,178,12.58,178
+scene,B,B-imblearn,imblearn,,2407,294,177,12.6,177
+oil,B,B-imblearn,imblearn,,937,49,41,21.85,41
+ozone_level,B,B-imblearn,imblearn,,2536,72,73,33.74,73

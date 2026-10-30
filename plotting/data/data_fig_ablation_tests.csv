@@ -1,0 +1,23 @@
+metric,family,configuration,mean_diff_pp,p,p_holm
+wBA,6 ablations (audit family),ablation: AW boundary quota,-0.57104,0.0229874,0.0919495
+wBA,6 ablations (audit family),ablation: AW generation (mask fixed),-0.222717,0.515278,0.515278
+wBA,6 ablations (audit family),ablation: AW generation (published),-0.292315,0.168793,0.434063
+wBA,6 ablations (audit family),ablation: all four parts removed,-2.47661,3.8147e-06,2.28882e-05
+wBA,6 ablations (audit family),ablation: no coarse clusters (eps 65),-0.134832,0.144688,0.434063
+wBA,6 ablations (audit family),ablation: no rescue,-0.618035,2.67029e-05,0.000133514
+wBA,5 ablations shown in Figure B,ablation: AW boundary quota,-0.57104,0.0229874,0.0689621
+wBA,5 ablations shown in Figure B,ablation: AW generation (published),-0.292315,0.168793,0.289375
+wBA,5 ablations shown in Figure B,ablation: all four parts removed,-2.47661,3.8147e-06,1.90735e-05
+wBA,5 ablations shown in Figure B,ablation: no coarse clusters (eps 65),-0.134832,0.144688,0.289375
+wBA,5 ablations shown in Figure B,ablation: no rescue,-0.618035,2.67029e-05,0.000106812
+recall_smallest_sub,6 ablations (audit family),ablation: AW boundary quota,-1.74343,0.049366,0.197464
+recall_smallest_sub,6 ablations (audit family),ablation: AW generation (mask fixed),-0.178661,0.930575,0.930575
+recall_smallest_sub,6 ablations (audit family),ablation: AW generation (published),-1.01982,0.0706426,0.211928
+recall_smallest_sub,6 ablations (audit family),ablation: all four parts removed,-7.49987,0.000335693,0.00201416
+recall_smallest_sub,6 ablations (audit family),ablation: no coarse clusters (eps 65),-0.597085,0.170114,0.340229
+recall_smallest_sub,6 ablations (audit family),ablation: no rescue,-1.86722,0.0159721,0.0798607
+recall_smallest_sub,5 ablations shown in Figure B,ablation: AW boundary quota,-1.74343,0.049366,0.148098
+recall_smallest_sub,5 ablations shown in Figure B,ablation: AW generation (published),-1.01982,0.0706426,0.148098
+recall_smallest_sub,5 ablations shown in Figure B,ablation: all four parts removed,-7.49987,0.000335693,0.00167847
+recall_smallest_sub,5 ablations shown in Figure B,ablation: no coarse clusters (eps 65),-0.597085,0.170114,0.170114
+recall_smallest_sub,5 ablations shown in Figure B,ablation: no rescue,-1.86722,0.0159721,0.0638885

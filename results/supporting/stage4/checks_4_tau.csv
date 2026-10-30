@@ -1,0 +1,6 @@
+ranking_1,ranking_2,kendall_tau,p
+recall_smallest_sub,Precision,-0.75,8.918489503496944e-06
+recall_smallest_sub,Specificity,-0.7833333333333333,2.4102265649057976e-06
+Recall,Precision,-0.7999999999999999,1.1793484584076514e-06
+Recall,Specificity,-0.7999999999999999,1.1793484584076514e-06
+recall_smallest_sub,Recall,0.7833333333333333,2.4102265649057976e-06

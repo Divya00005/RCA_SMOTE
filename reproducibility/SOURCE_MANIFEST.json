@@ -1,0 +1,721 @@
+{
+  "purpose": "main-paper-only release",
+  "source_archive_sha256": "8ead5da4b4b4191f7c64c4cca8f85504b0d598871ff40acad42b6f69631a768b",
+  "source_main_tex_sha256": "1832aaaf2671ba1944e46256c3a26722980dfb09075f1da323d24b679f4f84dc",
+  "final_means_status": "author-supplied updated aggregates, exported exactly from main.tex; producing code revision and fold outputs unavailable",
+  "supporting_status": "earlier-run evidence explicitly retained for main-paper claims",
+  "original_selected_python_sources": 40,
+  "source_assets": [
+    {
+      "path": "code/rca_smote.py",
+      "source": "rca-smote\\rca_smote.py",
+      "source_sha256": "48c7a3a56fef6b802c5ae138bfdfc286f9853453beff508d3b3f8db393a45548"
+    },
+    {
+      "path": "code/improved.py",
+      "source": "rca-smote\\improved.py",
+      "source_sha256": "ac5d82cce20702951b2661bbcf587b1a77afb1b5566fba1f926d31861f361376"
+    },
+    {
+      "path": "code/rc_aw_smote.py",
+      "source": "rca-smote\\rc_aw_smote.py",
+      "source_sha256": "f997a61e168fb272b37bb3e2bfaf1aab4c9ae47f189d6a5e5d628c3a0bb4a514"
+    },
+    {
+      "path": "code/common.py",
+      "source": "rca-smote\\common.py",
+      "source_sha256": "9a6b3891e29106edc5e9daaaf6f4a4764f25c1d885754e4987c67b3a7c732a4f"
+    },
+    {
+      "path": "code/stage3_datasets.py",
+      "source": "rca-smote\\stage3_datasets.py",
+      "source_sha256": "2203e49b3366ff45a0066d4e7a7089792ec7607191a0b9b9e044075f822bb463"
+    },
+    {
+      "path": "code/stage4_common.py",
+      "source": "rca-smote\\stage4_common.py",
+      "source_sha256": "0429d6625875ca9e6fc3b17ec78388fa93efce63d00bcf5f77b940bef0de8891"
+    },
+    {
+      "path": "code/cluster_plugins.py",
+      "source": "rca-smote\\cluster_plugins.py",
+      "source_sha256": "cd1f49cc8b3d017e8db2bfb4defada5ad90e5f248153c84096ea10528999486c"
+    },
+    {
+      "path": "code/exp1_synthetic.py",
+      "source": "rca-smote\\exp1_synthetic.py",
+      "source_sha256": "bdf01bd00449fafc3e2bd2a77ff3a6eac74ccd19c70b05c36039d2a240bde2b6"
+    },
+    {
+      "path": "code/exp2_benchmarks.py",
+      "source": "rca-smote\\exp2_benchmarks.py",
+      "source_sha256": "7e58fc1e48732ee52510282213267353533e4d10bc6378dd74229611977a8ecd"
+    },
+    {
+      "path": "code/exp3_variants.py",
+      "source": "rca-smote\\exp3_variants.py",
+      "source_sha256": "82d886c7235866237162bf25891e1a17b5f5609c412be269fabf6e5356b49bc7"
+    },
+    {
+      "path": "code/exp4_all_methods.py",
+      "source": "rca-smote\\exp4_all_methods.py",
+      "source_sha256": "fdf15686f8380e78ce3458d8fc7825c2a3e2624a8decf4d9f6f35a1c64d6a940"
+    },
+    {
+      "path": "code/exp5_ablation.py",
+      "source": "rca-smote\\exp5_ablation.py",
+      "source_sha256": "d4a7ed16030ec67b2bad6f06fd2ca05a431b7e9b90ddb6c05f4ba086cde9de24"
+    },
+    {
+      "path": "code/exp6_cluster_audit.py",
+      "source": "rca-smote\\exp6_cluster_audit.py",
+      "source_sha256": "eb70eba6aa16b2f2a5f1cbecb7d98e736cfa831e0c5605cbabb9d5bcbaf0ae10"
+    },
+    {
+      "path": "code/diagnose.py",
+      "source": "rca-smote\\diagnose.py",
+      "source_sha256": "b6dd6281d5d638d0b0f50bd0cec8122c75d86aeab1df6830697a27d37ea49c70"
+    },
+    {
+      "path": "code/mechanism_final.py",
+      "source": "rca-smote\\mechanism_final.py",
+      "source_sha256": "891ea95a2b1430bebbb9ebacacf7bc975b2528705ef46281db18881d64dd2432"
+    },
+    {
+      "path": "code/analyse_stage3.py",
+      "source": "rca-smote\\analyse_stage3.py",
+      "source_sha256": "7a43cf11e60959fe87fb30fa2e5164b2594d1dc545e8ea535296e0d303a6ee40"
+    },
+    {
+      "path": "code/analyse_stage4.py",
+      "source": "rca-smote\\analyse_stage4.py",
+      "source_sha256": "d9bb65a5edd5083668a6f554f0a71124bcae29390686b098b61a18f6a491109c"
+    },
+    {
+      "path": "code/analyse_stage4_checks.py",
+      "source": "rca-smote\\analyse_stage4_checks.py",
+      "source_sha256": "c00a2764a71ec7f70204d1f08cc604d136ecf6ac7ee4b74d93dc554be60ce2a2"
+    },
+    {
+      "path": "code/make_paper_figures.py",
+      "source": "rca-smote\\make_paper_figures.py",
+      "source_sha256": "415158eff1d81565c8b6ccef2eb6c500b54286b39dba157eff5f357b07add338"
+    },
+    {
+      "path": "code/verification/analyse_verification.py",
+      "source": "rca-smote\\verification\\analyse_verification.py",
+      "source_sha256": "f96847bd7eabe2088105dcf8500c1a6501da8776243049504568d3cc8d47717b"
+    },
+    {
+      "path": "code/verification/audit_checks.py",
+      "source": "rca-smote\\verification\\audit_checks.py",
+      "source_sha256": "761c3377a49e285ff539da1c22299d2d7905b86670276a55642f6f60f9bd5d37"
+    },
+    {
+      "path": "code/verification/focused_probes.py",
+      "source": "rca-smote\\verification\\focused_probes.py",
+      "source_sha256": "75ff87e831c75e5526e5f3fe0b37e9eed8e740e90b2b5df4393edad91c0a3411"
+    },
+    {
+      "path": "code/verification/supplementary_checks.py",
+      "source": "rca-smote\\verification\\supplementary_checks.py",
+      "source_sha256": "489a307a996ada6c61c624f9e9a37df56b66cdddd5ca3e1b60240589e028275b"
+    },
+    {
+      "path": "code/verification/run_reproduction.py",
+      "source": "rca-smote\\verification\\run_reproduction.py",
+      "source_sha256": "e26faddfb8ad74730896dc0260e285a9d07933e58c34bed63859485829f30ae9"
+    },
+    {
+      "path": "code/verification/group_b_probe.py",
+      "source": "rca-smote\\verification\\group_b_probe.py",
+      "source_sha256": "9e850fad9602afe407f42823afb3830cbf7376a0312cb3e21c01e62caf33b665"
+    },
+    {
+      "path": "code/verification/vowel_probe.py",
+      "source": "rca-smote\\verification\\vowel_probe.py",
+      "source_sha256": "883206bbb5270615823e10ed858176d5f1cea4060823516d00e884e822f03c02"
+    },
+    {
+      "path": "code/verification/edge_public_api.py",
+      "source": "rca-smote\\verification\\edge_public_api.py",
+      "source_sha256": "44cd6f4891f924b66b8a453d8195fcc86f8586c3d78a9e1d2ee7864ea378fd0c"
+    },
+    {
+      "path": "code/verification/aw_paper_replication/prepare_sources.py",
+      "source": "rca-smote\\verification\\aw_paper_replication\\prepare_sources.py",
+      "source_sha256": "53af66aa2ba0d8551b2c33ad2186699f601f50d9137ffea134a82c67efd2acc8"
+    },
+    {
+      "path": "code/verification/aw_paper_replication/replication_common.py",
+      "source": "rca-smote\\verification\\aw_paper_replication\\replication_common.py",
+      "source_sha256": "b8892c32438f1bb00381f44fba44b01c2ddd40bdc7100c91b7d84c41a59303e5"
+    },
+    {
+      "path": "code/verification/aw_paper_replication/run_replication.py",
+      "source": "rca-smote\\verification\\aw_paper_replication\\run_replication.py",
+      "source_sha256": "89c3e35026371ca8106481d538b988d0b7fef4eeda6b5d9e21356f1b69807b34"
+    },
+    {
+      "path": "code/verification/aw_paper_replication/equation_aw_smote.py",
+      "source": "rca-smote\\verification\\aw_paper_replication\\equation_aw_smote.py",
+      "source_sha256": "2e53c736d1c55abdc59478ff4d1b32a6d90b32941f76785e5a176171105ace6f"
+    },
+    {
+      "path": "code/verification/aw_paper_replication/analyse_replication.py",
+      "source": "rca-smote\\verification\\aw_paper_replication\\analyse_replication.py",
+      "source_sha256": "4e919e733065b0bd53bbb3cb4e016325b7f3f12acaa5c97ed14add1e66ce322d"
+    },
+    {
+      "path": "code/verification/aw_paper_replication/audit_equations.py",
+      "source": "rca-smote\\verification\\aw_paper_replication\\audit_equations.py",
+      "source_sha256": "7b51e6bcb2f742067d422b27640aff76f6ce06f03d96edf06dcc02fcf7ab6b04"
+    },
+    {
+      "path": "code/verification/aw_paper_replication/validate_all_predictions.py",
+      "source": "rca-smote\\verification\\aw_paper_replication\\validate_all_predictions.py",
+      "source_sha256": "ef5e03991c221a6d402b914c289b385f4bf2064630ccc76935582417c21b4f8c"
+    },
+    {
+      "path": "code/scripts/fetch_baseline.py",
+      "source": "rca-smote\\scripts\\fetch_baseline.py",
+      "source_sha256": "f11824c710518f8cd9461cfee433b7a0a5ececd8aa923e68a7727163d98ed81b"
+    },
+    {
+      "path": "code/scripts/fetch_data.py",
+      "source": "rca-smote\\scripts\\fetch_data.py",
+      "source_sha256": "743d604824c19cca832cea8ce70ed265782648ff25f9df17b1fd51f4a469796a"
+    },
+    {
+      "path": "plotting/make_fig1_corrected.py",
+      "source": "RCA_SMOTE_Final_Paper\\tools\\make_fig1_corrected.py",
+      "source_sha256": "65884b5089e259f33036adf0ac275aec608442fb4f11473fe6fcbde6748a8f2b"
+    },
+    {
+      "path": "plotting/make_updated_figures.py",
+      "source": "RCA_SMOTE_Final_Paper\\tools\\make_updated_figures.py",
+      "source_sha256": "1050c2fe55ce8817235c00642530603adcffaf4d11a3cc09397f1c8655c5f75a"
+    },
+    {
+      "path": "plotting/fig_ablation_analysis.py",
+      "source": "claude_new_figures\\scripts\\fig_ablation_analysis.py",
+      "source_sha256": "c2edd816d1bcf360035f421949103e0abd588bfde9822b272ebcb95ae4cfc62c"
+    },
+    {
+      "path": "plotting/figstyle.py",
+      "source": "claude_new_figures\\scripts\\figstyle.py",
+      "source_sha256": "9916d8cc8df099d9aa4c7e038ba9c7b54e39a382874c97f0d205f8e39353304f"
+    },
+    {
+      "path": "plotting/data/data_fig_ablation_analysis.csv",
+      "source": "claude_new_figures\\data_fig_ablation_analysis.csv",
+      "source_sha256": "787320afc0d21837edd1c8d1f40f11d94c4ae54c420c9a098152693c505191b3"
+    },
+    {
+      "path": "plotting/data/data_fig_ablation_tests.csv",
+      "source": "claude_new_figures\\data_fig_ablation_tests.csv",
+      "source_sha256": "2795c7e9a812513c811ecb948645daaae0fff575f285b2db2e2400dd8caeeb73"
+    },
+    {
+      "path": "paper/references.bib",
+      "source": "Elsevier ZIP::references.bib",
+      "source_sha256": "cdaa26c51d87b2bb45998a6efd3dfcac17042a8db264d0d934456a5bf2158ecb"
+    },
+    {
+      "path": "paper/elsarticle.cls",
+      "source": "Elsevier ZIP::elsarticle.cls",
+      "source_sha256": "23a341acd0e35c20148c836fc6e9251549aa45b059fc1750356ca2f3f11f3cb0"
+    },
+    {
+      "path": "paper/elsarticle-num.bst",
+      "source": "Elsevier ZIP::elsarticle-num.bst",
+      "source_sha256": "aaf9bce5453a0c191aa5ff4d200dc3a9b4170a6067ca723ec4f1edcd7ca14edf"
+    },
+    {
+      "path": "figures/fig1_methodology.pdf",
+      "source": "Elsevier ZIP::figures/fig1_methodology.pdf",
+      "source_sha256": "f73906ef364bdcacff201401521782527735cedcd995055becd4d51e9d9a0c78"
+    },
+    {
+      "path": "figures/fig2_synthetic_example.pdf",
+      "source": "Elsevier ZIP::figures/fig2_synthetic_example.pdf",
+      "source_sha256": "f2ae4923903f463ceed39f101a55729f677d66e309a2e305ae639fe8592bf538"
+    },
+    {
+      "path": "figures/fig3_starvation.pdf",
+      "source": "Elsevier ZIP::figures/fig3_starvation.pdf",
+      "source_sha256": "c0846a59ee8fdf158fd3ca1339d95af7ba82b83da288abe07749c20de4ed4d1d"
+    },
+    {
+      "path": "figures/fig4_dataset_comparison.pdf",
+      "source": "Elsevier ZIP::figures/fig4_dataset_comparison.pdf",
+      "source_sha256": "dc3cb0e6f707012a1774d52e7a4f817ce6982e963a7634557c8ec0c853594e14"
+    },
+    {
+      "path": "figures/fig5_ablation.pdf",
+      "source": "Elsevier ZIP::figures/fig5_ablation.pdf",
+      "source_sha256": "d9a1087ca2d5600e13fac4dad6b52c25ea391d47ee376f91a9be472538ae1e26"
+    },
+    {
+      "path": "figures/fig6_transferability.pdf",
+      "source": "Elsevier ZIP::figures/fig6_transferability.pdf",
+      "source_sha256": "6a150ee3a51a9ffb331de28c2dac9a8dc706bfeb1ffa1979fb58ba88b525612c"
+    },
+    {
+      "path": "figures/fig7_subgroup_recall.pdf",
+      "source": "Elsevier ZIP::figures/fig7_subgroup_recall.pdf",
+      "source_sha256": "e46891937e26bf3945cf8eb8027aa3cbcfb03f1582c46bb883bf908c4925db02"
+    },
+    {
+      "path": "figures/fig8_rankings.pdf",
+      "source": "Elsevier ZIP::figures/fig8_rankings.pdf",
+      "source_sha256": "f0ad8b0046d4f321c258b6e5cbea4ce586a038140cf69989defeffb48d0c0bc2"
+    },
+    {
+      "path": "results/supporting/stage3/DATASETS.md",
+      "source": "rca-smote\\results\\stage3\\DATASETS.md",
+      "source_sha256": "cdef0b41860f920db7b234e7f1b073fcfeb9318a576b35b8e2dcec9f0c87aa56"
+    },
+    {
+      "path": "results/supporting/stage3/datasets.csv",
+      "source": "rca-smote\\results\\stage3\\datasets.csv",
+      "source_sha256": "f4dac3666dab14821a9f23b2f181236badcee63d012d7f67f9a8217d08c8135f"
+    },
+    {
+      "path": "results/supporting/stage3/protocol_stage3.json",
+      "source": "rca-smote\\results\\stage3\\protocol_stage3.json",
+      "source_sha256": "e64015bdeacb47c2eafb416f304383b2839170c5261d2e139e8788a275ab998f"
+    },
+    {
+      "path": "results/supporting/stage3/all_folds.csv.gz",
+      "source": "rca-smote\\results\\stage3\\all_folds.csv.gz",
+      "source_sha256": "a283ba35b14e4e5f9e367fbb22df1f3a0d4345bd5d2c4067fc21a09318a93450"
+    },
+    {
+      "path": "results/supporting/stage3/starvation_folds.csv.gz",
+      "source": "rca-smote\\results\\stage3\\starvation_folds.csv.gz",
+      "source_sha256": "a356eb9668560c26bd98323a157425b6f2b802b2bea51e4b8c8c7c9504b4ee7b"
+    },
+    {
+      "path": "results/supporting/stage3/starvation_summary.csv",
+      "source": "rca-smote\\results\\stage3\\starvation_summary.csv",
+      "source_sha256": "09673b178d70a353c3dc30b93d18f91b33a96ac2a083b87169c1f6766b06ffa4"
+    },
+    {
+      "path": "results/supporting/stage3/means_per_dataset_classifier.csv",
+      "source": "rca-smote\\results\\stage3\\means_per_dataset_classifier.csv",
+      "source_sha256": "721f7f30027cc3db6f75352d656c63f9b8e29c5dd949c03fc140b5e873e9e06f"
+    },
+    {
+      "path": "results/supporting/stage3/per_subgroup_recall.csv",
+      "source": "rca-smote\\results\\stage3\\per_subgroup_recall.csv",
+      "source_sha256": "2f292d4e545d374e9c6345597cfe9d5c5756cc14d503b01e425440437c4b60af"
+    },
+    {
+      "path": "results/supporting/stage3/runtime.csv",
+      "source": "rca-smote\\results\\stage3\\runtime.csv",
+      "source_sha256": "c9ee0b7f7c9d62cd43210080f94bc1e26a885d9ce2a6fda3bdac023918a3954f"
+    },
+    {
+      "path": "results/supporting/stage3/sampler_status.csv",
+      "source": "rca-smote\\results\\stage3\\sampler_status.csv",
+      "source_sha256": "ae7272e45ba54c2811c7dc1cb2daf7f9aea65677609633cd5faed2a0690cf7a5"
+    },
+    {
+      "path": "results/supporting/stage3/ensembles_vs_rf.csv",
+      "source": "rca-smote\\results\\stage3\\ensembles_vs_rf.csv",
+      "source_sha256": "5855b56b4211f734ea8f4e94b85f31d284d8da5c37befd386c450fd75c4e9693"
+    },
+    {
+      "path": "results/supporting/stage4/audit_starvation.csv",
+      "source": "rca-smote\\results\\stage4\\audit_starvation.csv",
+      "source_sha256": "7f23b6d54a477df7baefe6b230358fc187cdf8e0287e830ae354ec454fb43d7e"
+    },
+    {
+      "path": "results/supporting/stage4/ablation_all_folds.csv.gz",
+      "source": "rca-smote\\results\\stage4\\ablation_all_folds.csv.gz",
+      "source_sha256": "a44cb5910325efef39736ad48bea182ed8f44bc7980e5dd0d98f52278f9278a8"
+    },
+    {
+      "path": "results/supporting/stage4/ablation_starvation_folds.csv.gz",
+      "source": "rca-smote\\results\\stage4\\ablation_starvation_folds.csv.gz",
+      "source_sha256": "f3e4b0cf287b4d5bb1854f8bea790222e055442340b3cba5df7b3cedb930233d"
+    },
+    {
+      "path": "results/supporting/stage4/ablation_sensitivity_starvation.csv",
+      "source": "rca-smote\\results\\stage4\\ablation_sensitivity_starvation.csv",
+      "source_sha256": "73f6b1c3d16d1c603a860df8a69f9bdb49a0980802632ef10a3a47c1a256bd72"
+    },
+    {
+      "path": "results/supporting/stage4/cluster_all_folds.csv.gz",
+      "source": "rca-smote\\results\\stage4\\cluster_all_folds.csv.gz",
+      "source_sha256": "b4003c45111ef660b53f4247692f04efea3ff9bb56fe2fce509378843beb8534"
+    },
+    {
+      "path": "results/supporting/stage4/cluster_starvation_folds.csv.gz",
+      "source": "rca-smote\\results\\stage4\\cluster_starvation_folds.csv.gz",
+      "source_sha256": "e409535c1f5c1831d977db2dd9dbfcd9ae8f68fb8ae4eaaced32154debc62680"
+    },
+    {
+      "path": "results/supporting/stage4/rankchange_kendall_tau.csv",
+      "source": "rca-smote\\results\\stage4\\rankchange_kendall_tau.csv",
+      "source_sha256": "9a65c5e386ca91559890f618595ce5293e23cc71614698771d1500d2627fbcab"
+    },
+    {
+      "path": "results/supporting/stage4/checks_4_positions.csv",
+      "source": "rca-smote\\results\\stage4\\checks_4_positions.csv",
+      "source_sha256": "af6c4af3166e88df7841839d98f02819216c1fb79c591719e53f78a0e30345ec"
+    },
+    {
+      "path": "results/supporting/stage4/checks_4_tau.csv",
+      "source": "rca-smote\\results\\stage4\\checks_4_tau.csv",
+      "source_sha256": "8177c3b5938b1a5beeccc6f8bca9a0ced56ff542969f946b2366bcac2b6fe336"
+    },
+    {
+      "path": "results/supporting/verification/STATISTICS_RECOMPUTED.csv",
+      "source": "rca-smote\\verification\\STATISTICS_RECOMPUTED.csv",
+      "source_sha256": "f5abdf4a90a6bbbb87372213c5a5061ead7ae6c5f28a336bc77ffaf3077dd6ea"
+    },
+    {
+      "path": "results/supporting/verification/FRIEDMAN_RECOMPUTED.csv",
+      "source": "rca-smote\\verification\\FRIEDMAN_RECOMPUTED.csv",
+      "source_sha256": "8b84eef526984b2734a7dbaef64f3f7d3f96b53fbfc02fd67c35b91dcc9ec136"
+    },
+    {
+      "path": "results/supporting/verification/STAGE4_DATASET_STATISTICS.csv",
+      "source": "rca-smote\\verification\\STAGE4_DATASET_STATISTICS.csv",
+      "source_sha256": "7facfd17a8a791cfb67627ff70be979b7f10b929845aa3828b744a7b0a8ce798"
+    },
+    {
+      "path": "results/supporting/verification/PLUGIN_DATASET_SIX_METRIC_TESTS.csv",
+      "source": "rca-smote\\verification\\PLUGIN_DATASET_SIX_METRIC_TESTS.csv",
+      "source_sha256": "e4fa7d071c79c547ca5120d1bc8446d62fe8057acd935390d8385664457fa505"
+    },
+    {
+      "path": "results/supporting/verification/STAGE4_ABLATION_RECOMPUTED.csv",
+      "source": "rca-smote\\verification\\STAGE4_ABLATION_RECOMPUTED.csv",
+      "source_sha256": "1c85aea918cbf72cddd950f1366519e8a02192fa443de8b92c3db3e07e0c36dd"
+    },
+    {
+      "path": "results/supporting/verification/STAGE4_CLUSTER_RECOMPUTED.csv",
+      "source": "rca-smote\\verification\\STAGE4_CLUSTER_RECOMPUTED.csv",
+      "source_sha256": "0641c6d3599b7491901eb19a8f81b0f0824e308aca75343fcd8c7408013960aa"
+    },
+    {
+      "path": "results/supporting/verification/FAMILY_AND_DUPLICATE_SENSITIVITY.csv",
+      "source": "rca-smote\\verification\\FAMILY_AND_DUPLICATE_SENSITIVITY.csv",
+      "source_sha256": "e59dbe9d8580f321cd4f855d7e56751deec0ff9c0ddc376f3153fe6896eb030c"
+    },
+    {
+      "path": "results/supporting/verification/DATASET_INTEGRITY.csv",
+      "source": "rca-smote\\verification\\DATASET_INTEGRITY.csv",
+      "source_sha256": "f222418f6c1c00ba98aa6e46215266ae3e53775e58d4c3549520e347bfa88272"
+    },
+    {
+      "path": "results/supporting/verification/DATA_HASHES.csv",
+      "source": "rca-smote\\verification\\DATA_HASHES.csv",
+      "source_sha256": "74148144eb3ff17f6af39b85b70c143fcbaf8a70913fe66e424acbc28d28d46f"
+    },
+    {
+      "path": "results/supporting/verification/TARGET_QUOTA_PROBES.csv",
+      "source": "rca-smote\\verification\\TARGET_QUOTA_PROBES.csv",
+      "source_sha256": "b81456035c86a4618897bdfc70c1a24af723a6b55ad4ebbb2f2cbe68ebd4e992"
+    },
+    {
+      "path": "results/supporting/verification/VOWEL_FOLD2_DIAGNOSIS.json",
+      "source": "rca-smote\\verification\\VOWEL_FOLD2_DIAGNOSIS.json",
+      "source_sha256": "a87d77587dd391a46586f596e6ce22fdf16ffc48f8c59744da4553dd6e3812eb"
+    },
+    {
+      "path": "data/DATASETS.md",
+      "source": "rca-smote\\results\\stage3\\DATASETS.md",
+      "source_sha256": "cdef0b41860f920db7b234e7f1b073fcfeb9318a576b35b8e2dcec9f0c87aa56"
+    },
+    {
+      "path": "data/datasets.csv",
+      "source": "rca-smote\\results\\stage3\\datasets.csv",
+      "source_sha256": "f4dac3666dab14821a9f23b2f181236badcee63d012d7f67f9a8217d08c8135f"
+    },
+    {
+      "path": "data/DATA_HASHES.csv",
+      "source": "rca-smote\\verification\\DATA_HASHES.csv",
+      "source_sha256": "74148144eb3ff17f6af39b85b70c143fcbaf8a70913fe66e424acbc28d28d46f"
+    },
+    {
+      "path": "reproducibility/protocols/protocol_stage2.json",
+      "source": "rca-smote\\results\\protocol_stage2.json",
+      "source_sha256": "8347aa8e3b988fc05b7b065e094bf54f2a4cb8e93ad4a35543b20479af282715"
+    },
+    {
+      "path": "reproducibility/protocols/protocol_stage3.json",
+      "source": "rca-smote\\results\\stage3\\protocol_stage3.json",
+      "source_sha256": "e64015bdeacb47c2eafb416f304383b2839170c5261d2e139e8788a275ab998f"
+    },
+    {
+      "path": "reproducibility/development_selection/stage2_dev_summary.csv",
+      "source": "rca-smote\\results\\stage2_dev_summary.csv",
+      "source_sha256": "bdfc4b0f9c7d432042495914cfd616bb404d11c3aad067108c75d0abea2a3ce9"
+    },
+    {
+      "path": "reproducibility/development_selection/stage2_dev_combined.csv",
+      "source": "rca-smote\\results\\stage2_dev_combined.csv",
+      "source_sha256": "f199da0af2e3815ad9cc857e32e0b3e664b1ba977cd64b41ecad690bf4b9164a"
+    },
+    {
+      "path": "reproducibility/development_selection/diagnosis_dev.csv",
+      "source": "rca-smote\\results\\diagnosis_dev.csv",
+      "source_sha256": "f996d21f04bb837d296e2e0a23053ec9a0b39bcff88aa7a938d0ba86afa5e921"
+    },
+    {
+      "path": "reproducibility/development_selection/mechanism_final.csv",
+      "source": "rca-smote\\results\\mechanism_final.csv",
+      "source_sha256": "f305ba95144fd37547a877d031cf5cb61e8e945fbe85e8d1b4d9e2cbe31e98f4"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/DATASET_SPEC.json",
+      "source": "rca-smote\\verification\\aw_paper_replication\\DATASET_SPEC.json",
+      "source_sha256": "ae957240289571f8acb3e3292915615937c06d5736b6167c16fb779d67ef3097"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/DOWNLOAD_MANIFEST.json",
+      "source": "rca-smote\\verification\\aw_paper_replication\\DOWNLOAD_MANIFEST.json",
+      "source_sha256": "e26cf15228f94edd5e8fe37d6556eb60003226bdd5e5c20e7f4150600634349d"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/CONFIGURATION.md",
+      "source": "rca-smote\\verification\\aw_paper_replication\\CONFIGURATION.md",
+      "source_sha256": "b6cc591d3414bb8a2bc84397122c20fd5e289bffdc3c2b81e35d9199e317b112"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/PACKAGE_LOCK.txt",
+      "source": "rca-smote\\verification\\aw_paper_replication\\PACKAGE_LOCK.txt",
+      "source_sha256": "5685944c69b2d29dd626ec486292606332701dffbd7f41e39378a229ebd5ae6c"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/ENVIRONMENT.json",
+      "source": "rca-smote\\verification\\aw_paper_replication\\ENVIRONMENT.json",
+      "source_sha256": "2ea141301a5bda4320a4c755b5501ed5818f31f516107db569bd2da6a93c9b7f"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/PUBLISHED_TABLES.json",
+      "source": "rca-smote\\verification\\aw_paper_replication\\PUBLISHED_TABLES.json",
+      "source_sha256": "6a1f67add8f47974914c2d64012a698da49eef66dffdf33a7297322cdbb6aeee"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/ORIGINAL_VS_REPRODUCED.csv",
+      "source": "rca-smote\\verification\\aw_paper_replication\\ORIGINAL_VS_REPRODUCED.csv",
+      "source_sha256": "b19f4ca74c08731f3ff5acf61d374e9d0630d22f0c47bd88b53d5b05cbf1769e"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/PAIRED_DATASET_STATISTICS.csv",
+      "source": "rca-smote\\verification\\aw_paper_replication\\PAIRED_DATASET_STATISTICS.csv",
+      "source_sha256": "b5ddb5e2212214d33eef7c8293d4d19b452361c7e56e1436c671cdeaa7c4408c"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/INVALID_CONTROL_AGGREGATES.csv",
+      "source": "rca-smote\\verification\\aw_paper_replication\\INVALID_CONTROL_AGGREGATES.csv",
+      "source_sha256": "1cb49763c72fda7e0aea69900a3ba5627e4a0b70b86c83aa3e343e5f27e45ae2"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/INVALID_CONTROL_DATASET_MEANS.csv",
+      "source": "rca-smote\\verification\\aw_paper_replication\\INVALID_CONTROL_DATASET_MEANS.csv",
+      "source_sha256": "8bcdd81d52354069a929dc5b76568ce86ac17eafd8c34d07e3f39a10d5f43ec7"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/INVALID_CONTROL_FOLDS.csv.gz",
+      "source": "rca-smote\\verification\\aw_paper_replication\\INVALID_CONTROL_FOLDS.csv.gz",
+      "source_sha256": "7cfc21f1c1fdaad96638bd017c93870eefb583101a62a058e55e4e0ad34618c1"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/ALL_LEGITIMATE_FOLDS.csv.gz",
+      "source": "rca-smote\\verification\\aw_paper_replication\\ALL_LEGITIMATE_FOLDS.csv.gz",
+      "source_sha256": "a98399230fd8b2282e4c04c18a4b428c3a343b7a38247031f6c3e2544b72d848"
+    },
+    {
+      "path": "reproducibility/aw_baseline_reconstruction/LARGER_DATASET_PROTOCOL_DIAGNOSTIC.csv",
+      "source": "rca-smote\\verification\\aw_paper_replication\\LARGER_DATASET_PROTOCOL_DIAGNOSTIC.csv",
+      "source_sha256": "f6e620d24fe99e8a16ebd13eb535a52e2e284cfdf904982604fa684dfea81d91"
+    },
+    {
+      "path": "LICENSE",
+      "source": "rca-smote\\LICENSE",
+      "source_sha256": "c6be8ca90aeba3b947bb84145ddbd007741b20756e86725b58acdc105352b623"
+    },
+    {
+      "path": "reproducibility/environments/original_reported_requirements.txt",
+      "source": "rca-smote\\requirements.txt",
+      "source_sha256": "f092ab3a8e0f9110b1b31b1536101b22fe6b951d706264ab4225452c691bedd7"
+    },
+    {
+      "path": "reproducibility/environments/audit_environment_lock.txt",
+      "source": "rca-smote\\verification\\aw_paper_replication\\PACKAGE_LOCK.txt",
+      "source_sha256": "5685944c69b2d29dd626ec486292606332701dffbd7f41e39378a229ebd5ae6c"
+    }
+  ],
+  "adaptations": [
+    {
+      "file": "code/rca_smote.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/improved.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/rc_aw_smote.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/common.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/stage3_datasets.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/stage4_common.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/cluster_plugins.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/exp1_synthetic.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/exp2_benchmarks.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/exp3_variants.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/exp4_all_methods.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/exp5_ablation.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/exp6_cluster_audit.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/diagnose.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/mechanism_final.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/analyse_stage3.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/analyse_stage4.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/analyse_stage4_checks.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/make_paper_figures.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/analyse_verification.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/audit_checks.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/focused_probes.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/supplementary_checks.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/run_reproduction.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/group_b_probe.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/vowel_probe.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/edge_public_api.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/prepare_sources.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/replication_common.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/run_replication.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/equation_aw_smote.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/analyse_replication.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/audit_equations.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/validate_all_predictions.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/scripts/fetch_baseline.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "code/scripts/fetch_data.py",
+      "change": "Portable project/data paths; original sampler and metric arithmetic retained."
+    },
+    {
+      "file": "paper/main.tex",
+      "change": "Removed dangling t1 title-note reference with no note definition."
+    },
+    {
+      "file": "paper/main.tex",
+      "change": "Removed five supplementary mentions; referenced canonical ../figures assets; retained scientific numbers and author declarations."
+    },
+    {
+      "file": "code/verification/aw_paper_replication/prepare_sources.py",
+      "change": "Portable spec/hash-based fetch entry point; removed original Git/paper-page-extraction assumptions."
+    },
+    {
+      "file": "code/exp4_all_methods.py",
+      "change": "Added harmless help path and safe work output default."
+    },
+    {
+      "file": "analysis/",
+      "change": "Added clean table export and dataset-block reaggregation entry points."
+    }
+  ]
+}

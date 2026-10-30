@@ -1,0 +1,5 @@
+# Install core requirements first, then install these using --no-deps.
+smote-variants==1.0.1
+metric-learn==0.7.0
+minisom==2.3.6
+seaborn==0.13.2

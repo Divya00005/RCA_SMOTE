@@ -1,0 +1,27 @@
+{
+ "dev_datasets": [
+  "ecoli",
+  "led7",
+  "shuttle",
+  "texture",
+  "wine_quality_white"
+ ],
+ "heldout_datasets": [
+  "yeast",
+  "vowel",
+  "segmentation",
+  "satimage",
+  "pendigits",
+  "dermatology",
+  "page_blocks",
+  "optdigits",
+  "letter",
+  "new_thyroid"
+ ],
+ "split_seed": 2026,
+ "selection_rule": "Choose the variant with the highest mean wBA over the 5 dev datasets x 4 classifiers (each dataset = mean of 5x2 CV folds). Tie (difference < 0.002): higher mean G-mean. The chosen variant is then run ONCE on the 10 held-out datasets with no further changes.",
+ "honesty_note": "SMOTE, AW-SMOTE and RC-AW-SMOTE results on all 15 datasets were already seen before this split. New variants are developed only on the dev datasets.",
+ "chosen_variant": "V7 V4 with global SMOTE partners",
+ "variants_tried_on_dev": 9,
+ "development_rounds": "Round 1: V0-V6. Round 2 (after seeing round-1 dev results): V7, V8. Then stopped."
+}

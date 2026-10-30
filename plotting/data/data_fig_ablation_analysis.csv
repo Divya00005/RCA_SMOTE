@@ -1,0 +1,191 @@
+configuration,metric,dataset,diff_pp
+ablation: no rescue,wBA,analcatdata_authorship,-0.0520
+ablation: no rescue,wBA,collins,-0.7262
+ablation: no rescue,wBA,dermatology,-0.3401
+ablation: no rescue,wBA,first_order_theorem_proving,-0.0367
+ablation: no rescue,wBA,gesture_phase,-0.8817
+ablation: no rescue,wBA,letter,-1.4517
+ablation: no rescue,wBA,mfeat_factors,-0.3615
+ablation: no rescue,wBA,movement_libras,-1.9583
+ablation: no rescue,wBA,new_thyroid,-0.4777
+ablation: no rescue,wBA,optdigits,-0.0171
+ablation: no rescue,wBA,page_blocks,0.1692
+ablation: no rescue,wBA,pendigits,-1.4775
+ablation: no rescue,wBA,satimage,-0.5996
+ablation: no rescue,wBA,segmentation,-0.8146
+ablation: no rescue,wBA,sleep,-0.2808
+ablation: no rescue,wBA,steel_plates_fault,-0.8396
+ablation: no rescue,wBA,vowel,-0.4560
+ablation: no rescue,wBA,wall_robot_navigation,-0.4575
+ablation: no rescue,wBA,yeast,-0.6833
+ablation: no rescue,recall_smallest_sub,analcatdata_authorship,-0.3333
+ablation: no rescue,recall_smallest_sub,collins,-3.0000
+ablation: no rescue,recall_smallest_sub,dermatology,-3.5000
+ablation: no rescue,recall_smallest_sub,first_order_theorem_proving,-0.6000
+ablation: no rescue,recall_smallest_sub,gesture_phase,1.5000
+ablation: no rescue,recall_smallest_sub,letter,-4.9840
+ablation: no rescue,recall_smallest_sub,mfeat_factors,2.9167
+ablation: no rescue,recall_smallest_sub,movement_libras,-3.0000
+ablation: no rescue,recall_smallest_sub,new_thyroid,-1.3194
+ablation: no rescue,recall_smallest_sub,optdigits,2.0032
+ablation: no rescue,recall_smallest_sub,page_blocks,0.5357
+ablation: no rescue,recall_smallest_sub,pendigits,-11.4904
+ablation: no rescue,recall_smallest_sub,satimage,-1.2000
+ablation: no rescue,recall_smallest_sub,segmentation,-6.2500
+ablation: no rescue,recall_smallest_sub,sleep,0.3000
+ablation: no rescue,recall_smallest_sub,steel_plates_fault,-0.5556
+ablation: no rescue,recall_smallest_sub,vowel,-4.0000
+ablation: no rescue,recall_smallest_sub,wall_robot_navigation,-1.5000
+ablation: no rescue,recall_smallest_sub,yeast,-1.0000
+ablation: AW boundary quota,wBA,analcatdata_authorship,-0.0811
+ablation: AW boundary quota,wBA,collins,-3.0181
+ablation: AW boundary quota,wBA,dermatology,-0.3182
+ablation: AW boundary quota,wBA,first_order_theorem_proving,-1.8842
+ablation: AW boundary quota,wBA,gesture_phase,-2.4067
+ablation: AW boundary quota,wBA,letter,-0.7529
+ablation: AW boundary quota,wBA,mfeat_factors,0.0612
+ablation: AW boundary quota,wBA,movement_libras,0.5744
+ablation: AW boundary quota,wBA,new_thyroid,-0.9283
+ablation: AW boundary quota,wBA,optdigits,0.0360
+ablation: AW boundary quota,wBA,page_blocks,-0.4191
+ablation: AW boundary quota,wBA,pendigits,-0.3315
+ablation: AW boundary quota,wBA,satimage,-0.3367
+ablation: AW boundary quota,wBA,segmentation,0.8775
+ablation: AW boundary quota,wBA,sleep,-1.3238
+ablation: AW boundary quota,wBA,steel_plates_fault,-0.6926
+ablation: AW boundary quota,wBA,vowel,0.7367
+ablation: AW boundary quota,wBA,wall_robot_navigation,-0.4913
+ablation: AW boundary quota,wBA,yeast,-0.1512
+ablation: AW boundary quota,recall_smallest_sub,analcatdata_authorship,-0.1667
+ablation: AW boundary quota,recall_smallest_sub,collins,-9.0000
+ablation: AW boundary quota,recall_smallest_sub,dermatology,-4.0000
+ablation: AW boundary quota,recall_smallest_sub,first_order_theorem_proving,-8.6000
+ablation: AW boundary quota,recall_smallest_sub,gesture_phase,-12.5000
+ablation: AW boundary quota,recall_smallest_sub,letter,-3.9583
+ablation: AW boundary quota,recall_smallest_sub,mfeat_factors,5.0000
+ablation: AW boundary quota,recall_smallest_sub,movement_libras,-1.0000
+ablation: AW boundary quota,recall_smallest_sub,new_thyroid,-1.2500
+ablation: AW boundary quota,recall_smallest_sub,optdigits,-0.1923
+ablation: AW boundary quota,recall_smallest_sub,page_blocks,-1.7857
+ablation: AW boundary quota,recall_smallest_sub,pendigits,-1.6667
+ablation: AW boundary quota,recall_smallest_sub,satimage,-0.6000
+ablation: AW boundary quota,recall_smallest_sub,segmentation,10.0000
+ablation: AW boundary quota,recall_smallest_sub,sleep,-3.4000
+ablation: AW boundary quota,recall_smallest_sub,steel_plates_fault,-0.5556
+ablation: AW boundary quota,recall_smallest_sub,vowel,4.0000
+ablation: AW boundary quota,recall_smallest_sub,wall_robot_navigation,-0.9500
+ablation: AW boundary quota,recall_smallest_sub,yeast,-2.5000
+ablation: no coarse clusters (eps 65),wBA,analcatdata_authorship,-0.0863
+ablation: no coarse clusters (eps 65),wBA,collins,0.1120
+ablation: no coarse clusters (eps 65),wBA,dermatology,-0.0088
+ablation: no coarse clusters (eps 65),wBA,first_order_theorem_proving,0.0396
+ablation: no coarse clusters (eps 65),wBA,gesture_phase,-0.8067
+ablation: no coarse clusters (eps 65),wBA,letter,-0.6878
+ablation: no coarse clusters (eps 65),wBA,mfeat_factors,0.7110
+ablation: no coarse clusters (eps 65),wBA,movement_libras,0.9650
+ablation: no coarse clusters (eps 65),wBA,new_thyroid,-1.0852
+ablation: no coarse clusters (eps 65),wBA,optdigits,-0.0985
+ablation: no coarse clusters (eps 65),wBA,page_blocks,-0.0269
+ablation: no coarse clusters (eps 65),wBA,pendigits,-0.1283
+ablation: no coarse clusters (eps 65),wBA,satimage,-0.2792
+ablation: no coarse clusters (eps 65),wBA,segmentation,-0.3845
+ablation: no coarse clusters (eps 65),wBA,sleep,0.1904
+ablation: no coarse clusters (eps 65),wBA,steel_plates_fault,-0.1339
+ablation: no coarse clusters (eps 65),wBA,vowel,-0.6215
+ablation: no coarse clusters (eps 65),wBA,wall_robot_navigation,-0.2600
+ablation: no coarse clusters (eps 65),wBA,yeast,0.0277
+ablation: no coarse clusters (eps 65),recall_smallest_sub,analcatdata_authorship,-0.3333
+ablation: no coarse clusters (eps 65),recall_smallest_sub,collins,1.0000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,dermatology,-2.0000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,first_order_theorem_proving,-1.3000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,gesture_phase,-1.4000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,letter,-2.2276
+ablation: no coarse clusters (eps 65),recall_smallest_sub,mfeat_factors,2.5000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,movement_libras,-1.0000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,new_thyroid,-2.8125
+ablation: no coarse clusters (eps 65),recall_smallest_sub,optdigits,0.1923
+ablation: no coarse clusters (eps 65),recall_smallest_sub,page_blocks,1.4286
+ablation: no coarse clusters (eps 65),recall_smallest_sub,pendigits,-0.3365
+ablation: no coarse clusters (eps 65),recall_smallest_sub,satimage,3.9000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,segmentation,-4.5833
+ablation: no coarse clusters (eps 65),recall_smallest_sub,sleep,-1.8000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,steel_plates_fault,-2.2222
+ablation: no coarse clusters (eps 65),recall_smallest_sub,vowel,0.0000
+ablation: no coarse clusters (eps 65),recall_smallest_sub,wall_robot_navigation,-0.8500
+ablation: no coarse clusters (eps 65),recall_smallest_sub,yeast,0.5000
+ablation: AW generation (published),wBA,analcatdata_authorship,-0.2029
+ablation: AW generation (published),wBA,collins,0.4733
+ablation: AW generation (published),wBA,dermatology,0.4331
+ablation: AW generation (published),wBA,first_order_theorem_proving,-1.6754
+ablation: AW generation (published),wBA,gesture_phase,0.1608
+ablation: AW generation (published),wBA,letter,-0.7102
+ablation: AW generation (published),wBA,mfeat_factors,-0.1911
+ablation: AW generation (published),wBA,movement_libras,0.6257
+ablation: AW generation (published),wBA,new_thyroid,-2.2567
+ablation: AW generation (published),wBA,optdigits,-0.0681
+ablation: AW generation (published),wBA,page_blocks,0.0610
+ablation: AW generation (published),wBA,pendigits,-0.1361
+ablation: AW generation (published),wBA,satimage,-0.0875
+ablation: AW generation (published),wBA,segmentation,-0.0114
+ablation: AW generation (published),wBA,sleep,-1.2875
+ablation: AW generation (published),wBA,steel_plates_fault,-1.0108
+ablation: AW generation (published),wBA,vowel,0.5565
+ablation: AW generation (published),wBA,wall_robot_navigation,-0.1387
+ablation: AW generation (published),wBA,yeast,-0.0879
+ablation: AW generation (published),recall_smallest_sub,analcatdata_authorship,-0.3333
+ablation: AW generation (published),recall_smallest_sub,collins,1.0000
+ablation: AW generation (published),recall_smallest_sub,dermatology,0.0000
+ablation: AW generation (published),recall_smallest_sub,first_order_theorem_proving,-7.4000
+ablation: AW generation (published),recall_smallest_sub,gesture_phase,1.8000
+ablation: AW generation (published),recall_smallest_sub,letter,-2.6763
+ablation: AW generation (published),recall_smallest_sub,mfeat_factors,0.4167
+ablation: AW generation (published),recall_smallest_sub,movement_libras,-2.0000
+ablation: AW generation (published),recall_smallest_sub,new_thyroid,-3.8889
+ablation: AW generation (published),recall_smallest_sub,optdigits,-0.0801
+ablation: AW generation (published),recall_smallest_sub,page_blocks,2.1429
+ablation: AW generation (published),recall_smallest_sub,pendigits,-1.6186
+ablation: AW generation (published),recall_smallest_sub,satimage,-0.9000
+ablation: AW generation (published),recall_smallest_sub,segmentation,-0.4167
+ablation: AW generation (published),recall_smallest_sub,sleep,-2.3000
+ablation: AW generation (published),recall_smallest_sub,steel_plates_fault,-2.2222
+ablation: AW generation (published),recall_smallest_sub,vowel,1.0000
+ablation: AW generation (published),recall_smallest_sub,wall_robot_navigation,-0.9000
+ablation: AW generation (published),recall_smallest_sub,yeast,-1.0000
+ablation: all four parts removed,wBA,analcatdata_authorship,-0.2500
+ablation: all four parts removed,wBA,collins,-2.7395
+ablation: all four parts removed,wBA,dermatology,-1.6811
+ablation: all four parts removed,wBA,first_order_theorem_proving,-1.7125
+ablation: all four parts removed,wBA,gesture_phase,-2.8808
+ablation: all four parts removed,wBA,letter,-3.3654
+ablation: all four parts removed,wBA,mfeat_factors,-5.1226
+ablation: all four parts removed,wBA,movement_libras,-4.2381
+ablation: all four parts removed,wBA,new_thyroid,-1.4781
+ablation: all four parts removed,wBA,optdigits,-1.6154
+ablation: all four parts removed,wBA,page_blocks,-1.8377
+ablation: all four parts removed,wBA,pendigits,-1.9027
+ablation: all four parts removed,wBA,satimage,-0.3204
+ablation: all four parts removed,wBA,segmentation,-1.9876
+ablation: all four parts removed,wBA,sleep,-1.7921
+ablation: all four parts removed,wBA,steel_plates_fault,-3.4401
+ablation: all four parts removed,wBA,vowel,-5.4665
+ablation: all four parts removed,wBA,wall_robot_navigation,-2.5888
+ablation: all four parts removed,wBA,yeast,-2.6361
+ablation: all four parts removed,recall_smallest_sub,analcatdata_authorship,-0.6667
+ablation: all four parts removed,recall_smallest_sub,collins,-12.5000
+ablation: all four parts removed,recall_smallest_sub,dermatology,-7.0000
+ablation: all four parts removed,recall_smallest_sub,first_order_theorem_proving,-9.8000
+ablation: all four parts removed,recall_smallest_sub,gesture_phase,-7.1000
+ablation: all four parts removed,recall_smallest_sub,letter,-14.5833
+ablation: all four parts removed,recall_smallest_sub,mfeat_factors,-20.4167
+ablation: all four parts removed,recall_smallest_sub,movement_libras,-6.5000
+ablation: all four parts removed,recall_smallest_sub,new_thyroid,-4.9306
+ablation: all four parts removed,recall_smallest_sub,optdigits,-0.9936
+ablation: all four parts removed,recall_smallest_sub,page_blocks,-2.6786
+ablation: all four parts removed,recall_smallest_sub,pendigits,-10.9615
+ablation: all four parts removed,recall_smallest_sub,satimage,10.9000
+ablation: all four parts removed,recall_smallest_sub,segmentation,-14.1667
+ablation: all four parts removed,recall_smallest_sub,sleep,-6.4000
+ablation: all four parts removed,recall_smallest_sub,steel_plates_fault,-7.5000
+ablation: all four parts removed,recall_smallest_sub,vowel,-12.0000
+ablation: all four parts removed,recall_smallest_sub,wall_robot_navigation,-7.2000
+ablation: all four parts removed,recall_smallest_sub,yeast,-8.0000

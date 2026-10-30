@@ -1,0 +1,227 @@
+{
+ "fixed_before_any_stage3_result_was_looked_at": true,
+ "date_fixed": "2026-10-23",
+ "rca_smote": "frozen: rca_smote.RCASMOTE (variant V7), no change of design or parameters",
+ "group_A_rule": [
+  "Source: PMLB (same source as the 15 stage-1/2 datasets), classification datasets, not marked deprecated.",
+  "At least 4 classes (so the Bellinger construction gives a majority of >= 2 classes and >= 2 minority sub-groups).",
+  "Numeric features: at least 80% of features continuous according to PMLB's metadata (all_summary_stats.tsv).",
+  "Enough samples per class: after the Bellinger construction (classes < 10 samples dropped, sub-groups halved, each >= 10, majority <= 2000) there are >= 2 minority sub-groups and the imbalance ratio is >= 2.5 (the smallest IR among the 15 existing datasets is 2.88).",
+  "No near-copies: not made from the same raw data as an existing Group A or Group B dataset, and at most one dataset from a family of views of the same raw data (first in alphabetical order).",
+  "Applying this rule to all PMLB datasets gives exactly 5 new datasets; PMLB has no more.",
+  "To reach about 30, the same rule was applied to the OpenML-CC18 benchmark suite (72 curated datasets; additionally: no missing values, <= 300 features). This adds 4: GesturePhaseSegmentationProcessed (id 4538), first-order-theorem-proving (1475), steel-plates-fault (40982), wall-robot-navigation (1497)."
+ ],
+ "group_B_rule": [
+  "AW-SMOTE's 13 KEEL datasets, exactly as named in their paper (downloaded manually from the KEEL imbalanced repository, full-dataset zip, not the pre-split fold files). Nominal features (flare-F only) are one-hot encoded.",
+  "Plus 8 more KEEL binary imbalanced datasets from families not used anywhere else in this study. Families with numeric or convertible features (at most one nominal attribute, one-hot encoded) and < 10,000 samples: glass, abalone, cleveland, iris (zoo, lymphography, car, kr-vs-k, poker, kddcup are mostly nominal; winequality-white, shuttle, page-blocks, segment, vowel, led7digit, dermatology, ecoli, yeast, vehicle, new-thyroid, wisconsin, pima, haberman, flare, winequality-red are already used). cleveland and iris have one binary version each (cleveland-0_vs_4, iris0). glass (13 versions) and abalone (7 versions) are many re-labellings of the same raw data, so from each we take the versions with the lowest, median and highest imbalance ratio in KEEL's table: glass1 (1.82), glass-0-1-6_vs_2 (10.29), glass5 (22.78); abalone9-18 (16.4), abalone-21_vs_8 (40.5), abalone19 (129.44).",
+  "Plus every dataset of imblearn.datasets.fetch_datasets (27 datasets) EXCEPT: (a) made from the same raw data as a Group A dataset; (b) categorical features (nominal attributes in the source description, or > 10% of features binary); (c) very large: > 10,000 samples or > 300 features."
+ ],
+ "primary_metrics": {
+  "A": "wBA (each minority sub-group counts equally); secondary: recall of the smallest sub-group",
+  "B": "G-mean (as in AW-SMOTE's paper); F1, MCC, ROC-AUC, PR-AUC also reported"
+ },
+ "group_A_dev": [
+  "ecoli",
+  "led7",
+  "shuttle",
+  "texture",
+  "wine_quality_white"
+ ],
+ "group_A_stage2_heldout": [
+  "yeast",
+  "vowel",
+  "segmentation",
+  "satimage",
+  "pendigits",
+  "dermatology",
+  "page_blocks",
+  "optdigits",
+  "letter",
+  "new_thyroid"
+ ],
+ "group_A_new": [
+  "analcatdata_authorship",
+  "collins",
+  "mfeat_factors",
+  "movement_libras",
+  "sleep",
+  "gesture_phase",
+  "first_order_theorem_proving",
+  "steel_plates_fault",
+  "wall_robot_navigation"
+ ],
+ "openml_ids": {
+  "gesture_phase": 4538,
+  "first_order_theorem_proving": 1475,
+  "steel_plates_fault": 40982,
+  "wall_robot_navigation": 1497
+ },
+ "group_B_keel_awsmote": [
+  "wisconsin",
+  "pima",
+  "haberman",
+  "vehicle0",
+  "ecoli1",
+  "new-thyroid2",
+  "ecoli3",
+  "yeast-0-2-5-6_vs_3-7-8-9",
+  "yeast-0-2-5-7-9_vs_3-6-8",
+  "yeast-2_vs_8",
+  "flare-F",
+  "winequality-red-3_vs_5",
+  "winequality-red-8_vs_6-7"
+ ],
+ "group_B_keel_extra": [
+  "glass1",
+  "glass-0-1-6_vs_2",
+  "glass5",
+  "abalone9-18",
+  "abalone-21_vs_8",
+  "abalone19",
+  "cleveland-0_vs_4",
+  "iris0"
+ ],
+ "group_B_imblearn": [
+  "spectrometer",
+  "us_crime",
+  "yeast_ml8",
+  "scene",
+  "oil",
+  "ozone_level"
+ ],
+ "keel_sharing_raw_data_with_group_A": {
+  "ecoli1": "ecoli (dev)",
+  "ecoli3": "ecoli (dev)",
+  "new-thyroid2": "new_thyroid",
+  "yeast-0-2-5-6_vs_3-7-8-9": "yeast",
+  "yeast-0-2-5-7-9_vs_3-6-8": "yeast",
+  "yeast-2_vs_8": "yeast"
+ },
+ "reporting": [
+  "Group A main = stage-2 held-out + new (development datasets reported separately)",
+  "Group A development datasets (5) reported separately",
+  "Group B all, and Group B without the 6 KEEL datasets that share raw data with Group A"
+ ],
+ "notes": [
+  "Some KEEL zips also contain macOS helper files (__MACOSX/._*.dat); they are ignored.",
+  "cleveland-0_vs_4: the KEEL file has 173 rows (KEEL's web table says 177, probably counting rows with missing values that are not in the file). The file is used as it is. KEEL stores this dataset's coded attributes (sex, chest-pain type, ECG result, ...) as numbers; they are used as given, like every other KEEL dataset.",
+  "abalone*: the one nominal attribute (Sex) is one-hot encoded, as for flare-F."
+ ],
+ "excluded": [
+  {
+   "source": "PMLB",
+   "name": "cloud",
+   "reason": "imbalance ratio after construction 1.67 < 2.5 (108 samples, 4 similar-size classes)"
+  },
+  {
+   "source": "PMLB",
+   "name": "confidence",
+   "reason": "imbalance ratio after construction 1.12 < 2.5 (72 samples)"
+  },
+  {
+   "source": "PMLB",
+   "name": "mfeat_fourier / mfeat_karhunen / mfeat_zernike",
+   "reason": "other views of the same raw data as mfeat_factors"
+  },
+  {
+   "source": "PMLB",
+   "name": "mfeat_morphological / mfeat_pixel",
+   "reason": "same raw data as mfeat_factors; also < 80% continuous"
+  },
+  {
+   "source": "PMLB",
+   "name": "mnist",
+   "reason": "near-copy of optdigits/pendigits (NIST handwritten digits)"
+  },
+  {
+   "source": "PMLB",
+   "name": "led24",
+   "reason": "near-copy of led7"
+  },
+  {
+   "source": "PMLB",
+   "name": "vehicle",
+   "reason": "same raw data as KEEL vehicle0 (Group B)"
+  },
+  {
+   "source": "PMLB",
+   "name": "wine_quality_red",
+   "reason": "same raw data as KEEL winequality-red-* (Group B)"
+  },
+  {
+   "source": "PMLB",
+   "name": "kddcup, fars, poker, nursery, krkopt, car_evaluation, soybean, lymphography, flags, calendarDOW, allhyper, allrep, analcatdata_dmft, analcatdata_germangss, auto_insurance_symboling, horse_colic_lesion_type",
+   "reason": "< 80% continuous features (nominal/coded attributes)"
+  },
+  {
+   "source": "OpenML-CC18",
+   "name": "mfeat-*, optdigits, pendigits, satimage, segment, texture, letter, vowel, vehicle, analcatdata_authorship",
+   "reason": "already used (Group A or B) or same raw data"
+  },
+  {
+   "source": "OpenML-CC18",
+   "name": "semeion, mnist_784",
+   "reason": "near-copies of the digit datasets (semeion is also binary pixels)"
+  },
+  {
+   "source": "OpenML-CC18",
+   "name": "har, isolet, cnae-9, Fashion-MNIST, CIFAR_10, Devnagari-Script",
+   "reason": "> 300 features"
+  },
+  {
+   "source": "OpenML-CC18",
+   "name": "MiceProtein, eucalyptus",
+   "reason": "missing values / nominal features"
+  },
+  {
+   "source": "OpenML-CC18",
+   "name": "car, analcatdata_dmft, and the CC18 datasets with < 4 classes",
+   "reason": "nominal features or < 4 classes"
+  },
+  {
+   "source": "KEEL",
+   "name": "zoo-3, lymphography-normal-fibrosis, car-*, kr-vs-k-*, poker-*, kddcup-*",
+   "reason": "mostly nominal features"
+  },
+  {
+   "source": "KEEL",
+   "name": "other glass and abalone versions",
+   "reason": "same raw data as the 3 versions taken from each family"
+  },
+  {
+   "source": "KEEL",
+   "name": "winequality-white-*, shuttle-*, page-blocks*, segment0, vowel0, led7digit-*, dermatology-6, ecoli-*, yeast*, vehicle1-3, new-thyroid1",
+   "reason": "family already used in Group A or B"
+  },
+  {
+   "source": "PMLB",
+   "name": "_deprecated_* (glass, cleveland, auto, car, solar_flare, ...)",
+   "reason": "marked deprecated by PMLB"
+  },
+  {
+   "source": "imblearn",
+   "name": "ecoli, optical_digits, satimage, pen_digits, letter_img, yeast_me2, wine_quality",
+   "reason": "same raw data as a Group A dataset"
+  },
+  {
+   "source": "imblearn",
+   "name": "libras_move",
+   "reason": "same raw data as movement_libras (Group A)"
+  },
+  {
+   "source": "imblearn",
+   "name": "abalone, abalone_19, sick_euthyroid, thyroid_sick, car_eval_34, car_eval_4, solar_flare_m0, coil_2000",
+   "reason": "categorical features"
+  },
+  {
+   "source": "imblearn",
+   "name": "arrhythmia",
+   "reason": "categorical: 83 of 278 features are binary"
+  },
+  {
+   "source": "imblearn",
+   "name": "isolet (617 features), webpage (34,780 samples), mammography (11,183), protein_homo (145,751)",
+   "reason": "very large"
+  }
+ ]
+}

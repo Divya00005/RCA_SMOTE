@@ -1,0 +1,18 @@
+# Local environments, fetched baseline and data
+.venv/
+.cache/
+data/raw/
+reproducibility/aw_baseline_reconstruction/sources/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+work/
+# Generated TeX intermediates
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
