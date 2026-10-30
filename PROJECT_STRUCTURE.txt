@@ -1,0 +1,192 @@
+RCA_SMOTE_Final_Repository/
+|-- analysis/
+|   |-- export_main_tables.py
+|   `-- recompute_statistics.py
+|-- code/
+|   |-- scripts/
+|   |   |-- fetch_baseline.py
+|   |   `-- fetch_data.py
+|   |-- verification/
+|   |   |-- aw_paper_replication/
+|   |   |   |-- analyse_replication.py
+|   |   |   |-- audit_equations.py
+|   |   |   |-- equation_aw_smote.py
+|   |   |   |-- prepare_sources.py
+|   |   |   |-- replication_common.py
+|   |   |   |-- run_replication.py
+|   |   |   `-- validate_all_predictions.py
+|   |   |-- analyse_verification.py
+|   |   |-- audit_checks.py
+|   |   |-- edge_public_api.py
+|   |   |-- focused_probes.py
+|   |   |-- group_b_probe.py
+|   |   |-- run_reproduction.py
+|   |   |-- supplementary_checks.py
+|   |   `-- vowel_probe.py
+|   |-- _project.py
+|   |-- analyse_stage3.py
+|   |-- analyse_stage4.py
+|   |-- analyse_stage4_checks.py
+|   |-- cluster_plugins.py
+|   |-- common.py
+|   |-- diagnose.py
+|   |-- exp1_synthetic.py
+|   |-- exp2_benchmarks.py
+|   |-- exp3_variants.py
+|   |-- exp4_all_methods.py
+|   |-- exp5_ablation.py
+|   |-- exp6_cluster_audit.py
+|   |-- improved.py
+|   |-- make_paper_figures.py
+|   |-- mechanism_final.py
+|   |-- rc_aw_smote.py
+|   |-- rca_smote.py
+|   |-- stage3_datasets.py
+|   `-- stage4_common.py
+|-- data/
+|   |-- raw/
+|   |-- DATA_HASHES.csv
+|   |-- datasets.csv
+|   |-- DATASETS.md
+|   `-- README.md
+|-- docs/
+|   |-- code_sources.md
+|   |-- limitations.md
+|   |-- methodology.md
+|   |-- release_verification.md
+|   |-- reproduction_instructions.md
+|   `-- result_provenance.md
+|-- figures/
+|   |-- previews/
+|   |   |-- fig1_methodology.png
+|   |   |-- fig2_synthetic_example.png
+|   |   |-- fig3_starvation.png
+|   |   |-- fig4_dataset_comparison.png
+|   |   |-- fig5_ablation.png
+|   |   |-- fig6_transferability.png
+|   |   |-- fig7_subgroup_recall.png
+|   |   `-- fig8_rankings.png
+|   |-- fig1_methodology.pdf
+|   |-- fig2_synthetic_example.pdf
+|   |-- fig3_starvation.pdf
+|   |-- fig4_dataset_comparison.pdf
+|   |-- fig5_ablation.pdf
+|   |-- fig6_transferability.pdf
+|   |-- fig7_subgroup_recall.pdf
+|   |-- fig8_rankings.pdf
+|   `-- README.md
+|-- paper/
+|   |-- elsarticle-num.bst
+|   |-- elsarticle.cls
+|   |-- main.tex
+|   |-- RCA_SMOTE_Final.pdf
+|   |-- README.md
+|   `-- references.bib
+|-- plotting/
+|   |-- data/
+|   |   |-- data_fig_ablation_analysis.csv
+|   |   `-- data_fig_ablation_tests.csv
+|   |-- fig_ablation_analysis.py
+|   |-- figstyle.py
+|   |-- make_fig1_corrected.py
+|   |-- make_fig2.py
+|   |-- make_updated_figures.py
+|   `-- README.md
+|-- reproducibility/
+|   |-- aw_baseline_reconstruction/
+|   |   |-- ALL_LEGITIMATE_FOLDS.csv.gz
+|   |   |-- CONFIGURATION.md
+|   |   |-- DATASET_SPEC.json
+|   |   |-- DOWNLOAD_MANIFEST.json
+|   |   |-- ENVIRONMENT.json
+|   |   |-- INVALID_CONTROL_AGGREGATES.csv
+|   |   |-- INVALID_CONTROL_DATASET_MEANS.csv
+|   |   |-- INVALID_CONTROL_FOLDS.csv.gz
+|   |   |-- LARGER_DATASET_PROTOCOL_DIAGNOSTIC.csv
+|   |   |-- ORIGINAL_VS_REPRODUCED.csv
+|   |   |-- PACKAGE_LOCK.txt
+|   |   |-- PAIRED_DATASET_STATISTICS.csv
+|   |   `-- PUBLISHED_TABLES.json
+|   |-- development_selection/
+|   |   |-- diagnosis_dev.csv
+|   |   |-- mechanism_final.csv
+|   |   |-- stage2_dev_combined.csv
+|   |   `-- stage2_dev_summary.csv
+|   |-- environments/
+|   |   |-- audit_environment_lock.txt
+|   |   `-- original_reported_requirements.txt
+|   |-- protocols/
+|   |   |-- protocol_stage2.json
+|   |   `-- protocol_stage3.json
+|   |-- FILE_HASHES.csv
+|   |-- README.md
+|   |-- RELEASE_VERIFICATION.json
+|   |-- SOURCE_MANIFEST.json
+|   `-- SOURCE_PRESERVATION.json
+|-- results/
+|   |-- main_tables/
+|   |   |-- table1_dataset_summary.csv
+|   |   |-- table1_dataset_summary.tex
+|   |   |-- table2_groupA_final.csv
+|   |   |-- table2_groupA_final.tex
+|   |   |-- table3_groupB_final.csv
+|   |   |-- table3_groupB_final.tex
+|   |   |-- table4_starvation_coverage.csv
+|   |   |-- table4_starvation_coverage.tex
+|   |   |-- table5_ablation.csv
+|   |   |-- table5_ablation.tex
+|   |   |-- table6_transferability.csv
+|   |   |-- table6_transferability.tex
+|   |   |-- table7_statistical_tests.csv
+|   |   `-- table7_statistical_tests.tex
+|   |-- supporting/
+|   |   |-- stage3/
+|   |   |   |-- all_folds.csv.gz
+|   |   |   |-- datasets.csv
+|   |   |   |-- DATASETS.md
+|   |   |   |-- ensembles_vs_rf.csv
+|   |   |   |-- means_per_dataset_classifier.csv
+|   |   |   |-- per_subgroup_recall.csv
+|   |   |   |-- protocol_stage3.json
+|   |   |   |-- runtime.csv
+|   |   |   |-- sampler_status.csv
+|   |   |   |-- starvation_folds.csv.gz
+|   |   |   `-- starvation_summary.csv
+|   |   |-- stage4/
+|   |   |   |-- ablation_all_folds.csv.gz
+|   |   |   |-- ablation_sensitivity_starvation.csv
+|   |   |   |-- ablation_starvation_folds.csv.gz
+|   |   |   |-- audit_starvation.csv
+|   |   |   |-- checks_4_positions.csv
+|   |   |   |-- checks_4_tau.csv
+|   |   |   |-- cluster_all_folds.csv.gz
+|   |   |   |-- cluster_starvation_folds.csv.gz
+|   |   |   `-- rankchange_kendall_tau.csv
+|   |   `-- verification/
+|   |       |-- DATA_HASHES.csv
+|   |       |-- DATASET_INTEGRITY.csv
+|   |       |-- FAMILY_AND_DUPLICATE_SENSITIVITY.csv
+|   |       |-- FRIEDMAN_RECOMPUTED.csv
+|   |       |-- PLUGIN_DATASET_SIX_METRIC_TESTS.csv
+|   |       |-- STAGE4_ABLATION_RECOMPUTED.csv
+|   |       |-- STAGE4_CLUSTER_RECOMPUTED.csv
+|   |       |-- STAGE4_DATASET_STATISTICS.csv
+|   |       |-- STATISTICS_RECOMPUTED.csv
+|   |       |-- TARGET_QUOTA_PROBES.csv
+|   |       `-- VOWEL_FOLD2_DIAGNOSIS.json
+|   |-- README.md
+|   `-- result_manifest.json
+|-- scripts/
+|   |-- build_paper.py
+|   |-- check_release.py
+|   `-- run.py
+|-- tests/
+|   `-- test_sampler_and_metrics.py
+|-- .gitattributes
+|-- .gitignore
+|-- CITATION.cff
+|-- LICENSE
+|-- PROJECT_STRUCTURE.txt
+|-- README.md
+|-- requirements-stage4.txt
+`-- requirements.txt
