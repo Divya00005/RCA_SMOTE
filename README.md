@@ -7,7 +7,7 @@
 
 Research code, main-paper results, figures, and LaTeX sources for **RCA-SMOTE**, a rare-cluster-aware correction to cluster-based oversampling.
 
-**Authors:** Divya Yadav · Mayankkumar Rathva · Pratipalsinh Jadeja · Sankhadeep Chatterjee
+**Authors:** Divya Yadav · Mayankkumar Rathva · Pratipalsinh Jadeja 
 
 [Read the paper](paper/RCA_SMOTE_Final.pdf) · [Final result tables](results/main_tables/) · [Figures](figures/) · [Reproduction guide](docs/reproduction_instructions.md) · [Citation](CITATION.cff)
 
